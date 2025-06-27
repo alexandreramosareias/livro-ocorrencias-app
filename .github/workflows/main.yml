@@ -45,7 +45,7 @@ jobs:
           python3 -m venv .venv
           source .venv/bin/activate
           pip install --upgrade pip
-          pip install setuptools buildozer
+          pip install setuptools buildozer cython
 
       # Passo 4: Executar a compilação do Buildozer
       - name: Build with Buildozer
