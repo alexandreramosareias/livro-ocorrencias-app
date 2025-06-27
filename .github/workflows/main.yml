@@ -25,7 +25,6 @@ jobs:
         with:
           distribution: 'temurin' # Uma distribuição popular e open source do OpenJDK
           java-version: '17'
-          cache: 'gradle' # Opcional, para cache do Gradle
 
       # Instalando dependências do sistema para o Ubuntu 20.04
       - name: Set up Buildozer dependencies
