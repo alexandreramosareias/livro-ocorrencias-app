@@ -1,0 +1,511 @@
+#:kivy 2.3.1
+
+# Define o ScreenManager como o widget raiz do nosso aplicativo.
+ScreenManager:
+    HomeScreen:
+        name: 'home'
+    RegisterScreen:
+        name: 'register'
+    QueryScreen:
+        name: 'query'
+    LoginScreen:
+        name: 'login'
+    RegisterUserScreen:
+        name: 'register_user'
+
+# --- Definição da Tela Inicial (HomeScreen) ---
+
+<HomeScreen>:
+    name: 'home'
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(20) # Espaçamento geral das bordas da tela do app
+
+        # --- CABEÇALHO/BARRA DE TÍTULO INTERNA ---
+        BoxLayout:
+            size_hint_y: None
+            height: dp(56) # Altura padrão da barra de título
+            orientation: 'horizontal'
+            canvas.before:
+                Color:
+                    rgba: 0.12, 0.58, 0.95, 1 # Cor azul Seeduc
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            Label:
+                text: 'Aplicativo de Ocorrências Escolares' # <-- Texto do cabeçalho da Home Screen
+                font_size: '22sp'
+                color: 1, 1, 1, 1
+                halign: 'center'
+                valign: 'middle'
+
+        # Espaçador entre o Cabeçalho e o Logo
+        Widget:
+            size_hint_y: None
+            height: dp(20) # Espaçamento para separar o cabeçalho do logo
+
+        # --- Logo do Colégio ---
+        Image:
+            source: 'logo_edmundo_silva.png'
+            size_hint_y: None # Altura não flexível
+            height: dp(200) # <-- AUMENTEI A ALTURA DO LOGO AQUI (Ex: de 150 para 200)
+            allow_stretch: True
+            keep_ratio: True
+        
+        # Espaçador entre o Logo e o grupo de botões principais
+        Widget:
+            size_hint_y: None
+            height: dp(30) # Espaçamento para separar o logo dos botões
+
+        # --- Meio (Botões de Ação Principais) ---
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint_y: None # Altura não flexível para este container de botões
+            height: self.minimum_height # A altura se ajusta ao conteúdo (soma das alturas dos botões + spacing)
+            spacing: dp(15) # Espaçamento entre os botões individuais
+
+            Button:
+                text: 'Registrar Nova Ocorrência'
+                on_release: app.root.current = 'register'
+                size_hint_y: None
+                height: dp(40)
+                font_size: '16sp'
+            Button:
+                text: 'Consultar Ocorrências'
+                on_release: app.root.current = 'query'
+                size_hint_y: None
+                height: dp(40)
+                font_size: '16sp'
+            
+        # --- Espaçador Flexível Central ---
+        # Este Widget vai ocupar o máximo de espaço possível, empurrando os elementos
+        # superiores para cima e o botão "Sair" e o rodapé para baixo.
+        Widget:
+            size_hint_y: 1 # Ocupa todo o espaço vertical restante
+
+        # --- Fundo (Botão Sair e Rodapé) ---
+        Button:
+            text: 'Sair'
+            on_release: app.root.current = 'login' # Volta para a tela de Login
+            size_hint_y: None
+            height: dp(40) # <-- REDUZI A ALTURA DO BOTÃO SAIR
+            font_size: '16sp' # Ajustar fonte se necessário para caber
+
+        # Rodapé - Assinatura
+        Label:
+            text: 'Desenvolvido por: Alexandre Areias'
+            size_hint_y: None
+            height: dp(30) # Altura fixa para o rodapé
+            font_size: '14sp'
+            halign: 'right' # Alinha o texto à direita
+            valign: 'middle'
+            text_size: self.width, None # Garante que o texto se ajuste à largura disponível
+            color: 0.12, 0.58, 0.95, 1 # Cor azul Seeduc
+
+# --- Definição da Tela de Registro (RegisterScreen) ---
+
+<RegisterScreen>:
+    name: 'register'
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(20) # Espaçamento geral das bordas da tela
+        spacing: dp(15) # Espaçamento entre os grandes blocos verticais (barra de título, formulário, botões)
+
+        # Barra de Título (mantém)
+        BoxLayout:
+            size_hint_y: None
+            height: dp(48) # <-- REDUZI A ALTURA DA BARRA DE TÍTULO AQUI (de 56 para 48)
+            orientation: 'horizontal'
+            canvas.before:
+                Color:
+                    rgba: 0.12, 0.58, 0.95, 1 # Azul Seeduc
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            Label:
+                text: 'Registrar Nova Ocorrência'
+                font_size: '22sp' # <-- Possível ajuste no tamanho da fonte se ficar apertado
+                color: 1, 1, 1, 1
+                halign: 'center'
+                valign: 'middle'
+
+        # Conteúdo Principal de Registro (o formulário)
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint_y: 1 # Ocupa todo o espaço vertical restante disponível
+            padding: dp(0) # <-- Removi o padding interno aqui, o padding principal já cuida
+            spacing: dp(15) # Espaçamento entre os grupos de campos (Aluno, Turma/Data, etc.)
+
+            # --- ALINHAMENTO GERAL DOS INPUTS ---
+            # Para garantir que todos os TextInputs comecem na mesma "coluna" visualmente,
+            # vamos usar um GridLayout de 2 colunas para cada linha de campo,
+            # onde a primeira coluna é para a Label e a segunda para o Input/Spinner.
+            # Isso dá um controle mais preciso sobre a largura da label.
+
+            # ALUNO (Linha Única)
+            GridLayout:
+                cols: 2
+                size_hint_y: None
+                height: dp(48)
+                spacing: dp(10) # Espaçamento entre a label e o input
+                Label:
+                    text: 'Aluno(a):'
+                    size_hint_x: None # <-- Importante: remove size_hint_x aqui
+                    width: dp(120) # <-- Largura fixa para a Label, ajuste conforme necessário
+                    halign: 'left'
+                    valign: 'middle'
+                    text_size: self.width, None # Garante que o texto da label se ajuste à largura
+                TextInput:
+                    id: aluno_input
+                    hint_text: 'Nome do Aluno(a)'
+                    multiline: False
+                    size_hint_x: 1 # Ocupa o restante da largura da coluna
+
+            # TURMA E DATA (Mesma Linha)
+            BoxLayout: # Usaremos BoxLayout para esta linha específica por causa dos 2 inputs
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: dp(48)
+                spacing: dp(10) # Espaçamento entre os elementos dentro deste BoxLayout
+                GridLayout: # Label Turma
+                    cols: 1
+                    size_hint_x: None
+                    width: dp(120) # <-- Mesma largura da label Aluno(a):
+                    Label:
+                        text: 'Turma:'
+                        halign: 'left'
+                        valign: 'middle'
+                        text_size: self.width, None
+                TextInput:
+                    id: turma_input
+                    hint_text: 'Ex: 1001'
+                    multiline: False
+                    size_hint_x: 0.5 # Ajuste para a largura do input da Turma (Ex: 50% do espaço restante)
+                GridLayout: # Label Data
+                    cols: 1
+                    size_hint_x: None
+                    width: dp(60) # <-- Largura para a label Data:, ajuste se 'Data:' não couber
+                    Label:
+                        text: 'Data:'
+                        halign: 'right' # Alinha o texto da label à direita
+                        valign: 'middle'
+                        text_size: self.width, None
+                TextInput:
+                    id: data_input
+                    hint_text: 'DD/MM/AAAA'
+                    multiline: False
+                    size_hint_x: 0.5 # Ocupa o restante do espaço para o input da Data
+                    on_focus: if self.focus: root.show_date_picker()
+            
+            # PROFESSOR (Linha Única)
+            GridLayout:
+                cols: 2
+                size_hint_y: None
+                height: dp(48)
+                spacing: dp(10)
+                Label:
+                    text: 'Professor(a):'
+                    size_hint_x: None
+                    width: dp(120) # <-- Mesma largura das labels para alinhar
+                    halign: 'left'
+                    valign: 'middle'
+                    text_size: self.width, None
+                TextInput:
+                    id: professor_input
+                    hint_text: 'Nome do Professor(a)'
+                    multiline: False
+                    size_hint_x: 1
+
+            # NATUREZA (Linha Única)
+            GridLayout:
+                cols: 2
+                size_hint_y: None
+                height: dp(48)
+                spacing: dp(10)
+                Label:
+                    text: 'Natureza:'
+                    size_hint_x: None
+                    width: dp(120) # <-- Mesma largura das labels para alinhar
+                    halign: 'left'
+                    valign: 'middle'
+                    text_size: self.width, None
+                Spinner:
+                    id: natureza_spinner
+                    text: 'Selecione a Natureza'
+                    values: ['Bullying', 'Indisciplina em Sala', 'Agressão física', 'Agressão Verbal', 'Ausência Injustificada', 'Outros Comportamentos']
+                    size_hint_x: 1
+                    sync_height: True
+
+            # DESCRIÇÃO DETALHADA (Área maior para texto)
+            GridLayout:
+                cols: 2
+                size_hint_y: None
+                height: dp(100) # Altura para a área de texto da descrição
+                spacing: dp(10)
+                Label:
+                    text: 'Descrição Detalhada:'
+                    size_hint_x: None
+                    width: dp(120) # <-- Mesma largura das labels para alinhar
+                    halign: 'left'
+                    valign: 'top'
+                    text_size: self.width, None
+                TextInput:
+                    id: descricao_input
+                    hint_text: 'Descreva a ocorrência...'
+                    multiline: True
+                    size_hint_x: 1 # Ocupa o restante da largura. Scroll interno para texto longo.
+
+
+            # --- Botões de Ação ---
+            Widget: # Espaçador flexível para empurrar os botões para baixo
+                size_hint_y: 1
+
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: dp(40)
+                spacing: dp(15)
+                Button:
+                    text: 'Limpar Campos'
+                    on_release: root.clear_fields()
+                Button:
+                    text: 'Salvar Ocorrência'
+                    on_release: root.save_occurrence()
+            
+            Button:
+                text: 'Voltar para o Início'
+                on_release: app.root.current = 'home'
+                size_hint_y: None
+                height: dp(40)
+
+# --- Definição da Tela de Consulta (QueryScreen) ---
+<QueryScreen>:
+    BoxLayout: # Este é o BoxLayout principal da tela de consulta. Todos os outros devem ser filhos dele.
+        orientation: 'vertical'
+        padding: dp(20)
+        spacing: dp(10)
+
+        # --- BARRA DE TÍTULO AZUL (Adicionada aqui) ---
+        BoxLayout:
+            size_hint_y: None
+            height: dp(56) # Altura padrão da barra de título
+            orientation: 'horizontal'
+            canvas.before:
+                Color:
+                    rgba: 0.12, 0.58, 0.95, 1 # Cor azul Seeduc
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            Label:
+                text: 'Consultar Ocorrências' # <-- Texto do cabeçalho da QueryScreen
+                font_size: '24sp'
+                color: 1, 1, 1, 1
+                halign: 'center'
+                valign: 'middle'
+
+        # --- Campos de busca ---
+        BoxLayout: # Layout para o campo de busca por Aluno
+            orientation: 'horizontal'
+            size_hint_y: 0.12
+            Label:
+                text: 'Aluno(a):'
+                size_hint_x: 0.3
+            TextInput:
+                id: query_aluno_input
+                multiline: False
+                size_hint_x: 1
+                size_hint_y: None # <-- Define altura fixa
+                height: dp(48) # <-- Altura padronizada para TextInputs/Spinners
+
+        BoxLayout: # Layout para o campo de busca por Turma
+            orientation: 'horizontal'
+            size_hint_y: 0.12
+            Label:
+                text: 'Turma:'
+                size_hint_x: 0.3
+            TextInput:
+                id: query_turma_input
+                multiline: False
+                size_hint_x: 1
+                size_hint_y: None # <-- Define altura fixa
+                height: dp(48) # <-- Altura padronizada para TextInputs/Spinners
+        
+        BoxLayout: # Layout para o campo de busca por Natureza
+            orientation: 'horizontal'
+            size_hint_y: 0.12
+            Label:
+                text: 'Natureza:'
+                size_hint_x: 0.3
+            Spinner:
+                id: query_natureza_spinner
+                text: 'Selecione a Natureza'
+                values: ['Bullying', 'Indisciplina em Sala', 'Agressão física', 'Agressão Verbal', 'Ausência Injustificada', 'Outros Comportamentos']
+                size_hint_x: 1
+                size_hint_y: None # <-- Define altura fixa
+                height: dp(48) # <-- Altura padronizada para TextInputs/Spinners
+                sync_height: True
+
+        Button: # Botão para realizar a busca
+            text: 'Buscar Ocorrências'
+            size_hint_y: None
+            height: dp(40)
+            margin_top: dp(20)
+            on_release: root.perform_query()
+
+        Widget: # Adicione um widget vazio para empurrar o botão "Voltar" para baixo
+            size_hint_y: 0.15 # Ajustado para preencher o espaço restante
+            
+        Button: # Botão Voltar (AGORA FORA DO TEXTINPUT, ALINHADO AO BOXLAYOUT PRINCIPAL)
+            text: 'Voltar para o Início'
+            size_hint_y: None
+            height: dp(40)
+            margin_top: dp(20)
+            on_release: app.root.current = 'home'
+
+# --- Definição da Tela de Login ---
+<LoginScreen>:
+    name: 'login'
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(20)
+        spacing: dp(20)
+
+        # Barra de Título (mantém)
+        BoxLayout:
+            size_hint_y: None
+            height: dp(56)
+            orientation: 'horizontal'
+            canvas.before:
+                Color:
+                    rgba: 0.12, 0.58, 0.95, 1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            Label:
+                text: 'Login'
+                font_size: '24sp'
+                color: 1, 1, 1, 1
+                halign: 'center'
+                valign: 'middle'
+
+        # Conteúdo do Login - AJUSTE AQUI
+        BoxLayout:
+            orientation: 'vertical'
+            padding: dp(20)
+            spacing: dp(20)
+            
+            Label:
+                text: 'Entre com suas credenciais'
+                font_size: '18sp'
+                halign: 'center'
+                size_hint_y: None # Continua None para a label, ajusta à sua altura de texto
+                height: self.texture_size[1]
+
+            TextInput:
+                id: email_input_login
+                hint_text: 'Email'
+                multiline: False
+                size_hint_y: None # Altura fixa para TextInput
+                height: dp(48)
+                input_type: 'mail'
+
+            TextInput:
+                id: password_input_login
+                hint_text: 'Senha'
+                multiline: False
+                password: True
+                size_hint_y: None # Altura fixa para TextInput
+                height: dp(48)
+
+            Button:
+                text: 'Entrar'
+                on_release: root.login_user(email_input_login.text, password_input_login.text)
+                size_hint_y: None # Altura fixa para Button
+                height: dp(40)
+
+            Button:
+                text: 'Criar Nova Conta'
+                on_release: app.root.current = 'register_user'
+                size_hint_y: None # Altura fixa para Button
+                height: dp(40)
+
+            Widget: # Spacer para empurrar o conteúdo para o topo, se desejar
+                size_hint_y: 1
+
+# --- Definição da Tela de Registro de Usuário ---
+<RegisterUserScreen>:
+    name: 'register_user'
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(20)
+        spacing: dp(20)
+
+        # Barra de Título (mantém)
+        BoxLayout:
+            size_hint_y: None
+            height: dp(56)
+            orientation: 'horizontal'
+            canvas.before:
+                Color:
+                    rgba: 0.12, 0.58, 0.95, 1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            Label:
+                text: 'Registrar Nova Conta'
+                font_size: '24sp'
+                color: 1, 1, 1, 1
+                halign: 'center'
+                valign: 'middle'
+
+        # Conteúdo do Registro - AJUSTE AQUI
+        BoxLayout: # Este BoxLayout principal do conteúdo DEVE OCUPAR O ESPAÇO
+            orientation: 'vertical'
+            padding: dp(20)
+            spacing: dp(20)
+            
+            Label:
+                text: 'Preencha para criar sua conta'
+                font_size: '18sp'
+                halign: 'center'
+                size_hint_y: None
+                height: self.texture_size[1]
+
+            TextInput:
+                id: email_input_register
+                hint_text: 'Email'
+                multiline: False
+                size_hint_y: None
+                height: dp(48)
+                input_type: 'mail'
+
+            TextInput:
+                id: password_input_register
+                hint_text: 'Senha (mínimo 6 caracteres)'
+                multiline: False
+                password: True
+                size_hint_y: None
+                height: dp(48)
+
+            TextInput:
+                id: confirm_password_input_register
+                hint_text: 'Confirmar Senha'
+                multiline: False
+                password: True
+                size_hint_y: None
+                height: dp(48)
+
+            Button:
+                text: 'Registrar'
+                on_release: root.register_new_user(email_input_register.text, password_input_register.text, confirm_password_input_register.text)
+                size_hint_y: None
+                height: dp(60)
+
+            Button:
+                text: 'Já tenho uma conta (Login)'
+                on_release: app.root.current = 'login'
+                size_hint_y: None
+                height: dp(60)
+
+            Widget: # Spacer
+                size_hint_y: 1
