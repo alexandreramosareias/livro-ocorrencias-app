@@ -31,6 +31,7 @@ jobs:
           libssl-dev \
           autoconf \
           autogen \
+          automake \
           libtool \
           pkg-config \
           zlib1g-dev \
