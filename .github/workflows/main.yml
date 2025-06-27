@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     # A máquina virtual que o robô usará: a mais recente do Ubuntu
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       # Passo 1: Baixar o seu código do repositório para a máquina virtual
