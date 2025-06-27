@@ -157,5 +157,3 @@ p4a.branch = master
 # use that parameter to provide a filename from where to load your custom XML c
 
 [buildozer]
-# Força o uso da versão de desenvolvimento mais recente do python-for-android
-p4a.branch = master
