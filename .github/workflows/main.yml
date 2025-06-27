@@ -19,6 +19,14 @@ jobs:
         with:
           python-version: '3.9'
 
+      # Nova etapa para configurar o Java 17
+      - name: Set up Java 17
+        uses: actions/setup-java@v4 # Use a versão 4 da ação
+        with:
+          distribution: 'temurin' # Uma distribuição popular e open source do OpenJDK
+          java-version: '17'
+          cache: 'gradle' # Opcional, para cache do Gradle
+
       # Instalando dependências do sistema para o Ubuntu 20.04
       - name: Set up Buildozer dependencies
         run: |
