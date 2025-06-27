@@ -1,4 +1,4 @@
-name: Buildozer Android APK (Stable) 
+name: Buildozer Android APK (Stable)
 
 on:
   push:
