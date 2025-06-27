@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     # Usando a versão de suporte de longo prazo mais antiga e estável do Ubuntu
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Checkout project
