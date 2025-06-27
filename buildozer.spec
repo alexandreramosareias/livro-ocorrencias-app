@@ -146,6 +146,9 @@ android.accept_sdk_license = True
 # use that parameter together with android.entrypoint to set custom Java class instead of PythonActivity
 #android.activity_class_name = org.kivy.android.PythonActivity
 
+# Força o uso da versão de desenvolvimento mais recente do python-for-android
+p4a.branch = master
+
 # (str) Extra xml to write directly inside the <manifest> element of AndroidManifest.xml
 # use that parameter to provide a filename from where to load your custom XML c
 
