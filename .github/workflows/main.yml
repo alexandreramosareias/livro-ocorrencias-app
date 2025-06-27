@@ -37,6 +37,7 @@ jobs:
           zlib1g-dev \
           libncurses5-dev \
           libsndfile1-dev \
+          libunwind-dev \
           libgstreamer1.0-dev \
           libgstreamer-plugins-base1.0-dev
 
