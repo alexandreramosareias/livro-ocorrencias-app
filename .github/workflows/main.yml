@@ -1,29 +1,25 @@
-# Nome do nosso fluxo de trabalho de compilação
-name: Buildozer Android APK
+name: Buildozer Android APK (Stable)
 
-# Gatilho: Este fluxo de trabalho rodará toda vez que
-# você fizer um 'push' para o branch 'main'
 on:
   push:
     branches: [ "main" ]
 
 jobs:
   build:
-    # Usando um ambiente comprovadamente estável
-    runs-on: ubuntu-22.04
+    # Usando a versão de suporte de longo prazo mais antiga e estável do Ubuntu
+    runs-on: ubuntu-20.04
 
     steps:
-      # Passo 1: Baixar o seu código do repositório para a máquina virtual
-      - name: Checkout
+      - name: Checkout project
         uses: actions/checkout@v4
 
-      # NOVO PASSO 2: Configurar e forçar o uso do Python 3.11
-      - name: Set up Python 3.11
+      # Forçando o uso do Python 3.9, uma versão super estável para compilação Kivy
+      - name: Set up Python 3.9
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.9'
 
-      # Passo 3: Instalar as dependências do sistema
+      # Instalando dependências do sistema para o Ubuntu 20.04
       - name: Set up Buildozer dependencies
         run: |
           sudo apt-get update
@@ -31,6 +27,7 @@ jobs:
           git \
           zip \
           unzip \
+          build-essential \
           python3-pip \
           python3-venv \
           libffi-dev \
@@ -47,32 +44,23 @@ jobs:
           libunwind-dev \
           libgstreamer-plugins-base1.0-dev
 
-      # Passo 4: Instalar as ferramentas Python necessárias
+      # Instalando as ferramentas Python
       - name: Install required Python tools
         run: |
           python3 -m venv .venv
           source .venv/bin/activate
           pip install --upgrade pip
-          pip install setuptools buildozer cython
+          pip install "cython<3.0" setuptools buildozer
 
-      # Passo 5: Executar a compilação do Buildozer
+      # Compilando com o Buildozer
       - name: Build with Buildozer
         run: |
           source .venv/bin/activate
           buildozer -v android debug
 
-      # Passo 6: Fazer o upload do APK gerado como um "artefato" (se a compilação tiver SUCESSO)
+      # Fazendo o upload do APK
       - name: Upload APK Artifact
-        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: edmundoapp-apk
           path: bin/*.apk
-      
-      # Passo 7: Fazer o upload do LOG COMPLETO como um "artefato" (se a compilação FALHAR)
-      - name: Upload Log Artifact on Failure
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: buildozer-log
-          path: .buildozer/logs/buildozer.log
