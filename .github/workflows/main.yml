@@ -1,0 +1,60 @@
+# Nome do nosso fluxo de trabalho de compilação
+name: Buildozer Android APK
+
+# Gatilho: Este fluxo de trabalho rodará toda vez que
+# você fizer um 'push' para o branch 'main'
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    # A máquina virtual que o robô usará: a mais recente do Ubuntu
+    runs-on: ubuntu-latest
+
+    steps:
+      # Passo 1: Baixar o seu código do repositório para a máquina virtual
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Passo 2: Instalar as dependências do sistema necessárias para o Buildozer
+      - name: Set up Buildozer dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+          git \
+          zip \
+          unzip \
+          python3-pip \
+          python3-venv \
+          libffi-dev \
+          libssl-dev \
+          autoconf \
+          autogen \
+          libtool \
+          pkg-config \
+          zlib1g-dev \
+          libncurses5-dev \
+          libsndfile1-dev \
+          libgstreamer1.0-dev \
+          libgstreamer-plugins-base1.0-dev
+
+      # Passo 3: Instalar o Buildozer dentro de um ambiente virtual
+      - name: Install Buildozer
+        run: |
+          python3 -m venv .venv
+          source .venv/bin/activate
+          pip install --upgrade pip
+          pip install buildozer
+
+      # Passo 4: Executar a compilação do Buildozer
+      - name: Build with Buildozer
+        run: |
+          source .venv/bin/activate
+          buildozer -v android debug
+      # Passo 5: Fazer o upload do APK gerado como um "artefato"
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: edmundoapp-apk
+          path: bin/*.apk
