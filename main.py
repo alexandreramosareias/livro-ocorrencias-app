@@ -411,7 +411,7 @@ class QueryScreen(Screen):
 
 class LoginScreen(Screen):
     # As chaves e URLs do Firebase precisam estar aqui também
-    FIREBASE_PROJECT_ID = "edmundo-silva-cloud-firestore"
+    FIREBASE_PROJECT_ID = "edmundo-silva"
     WEB_API_KEY = GLOBAL_WEB_API_KEY
     AUTH_SIGN_IN_URL = f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={WEB_API_KEY}"
 
@@ -467,7 +467,7 @@ class LoginScreen(Screen):
 
 class RegisterUserScreen(Screen):
     # As chaves e URLs do Firebase precisam estar aqui também
-    FIREBASE_PROJECT_ID = "edmundo-silva-cloud-firestore"
+    FIREBASE_PROJECT_ID = "edmundo-silva"
     WEB_API_KEY = "AIzaSyD2jnd3DIxhkz6cN1-zl5_SWqu623olTVQ"
     AUTH_SIGN_UP_URL = f"https://identitytoolkit.googleapis.com/v1/accounts:signUp?key={WEB_API_KEY}"
 

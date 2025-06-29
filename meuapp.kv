@@ -165,14 +165,14 @@ ScreenManager:
                         multiline: False
                         size_hint_x: 1 # Ocupa o restante da largura da coluna
                         padding_x: dp(10), dp(10) # Adicionado padding horizontal
-                        padding_y: [self.height / 2.0 - self.font_size / 2.0, self.height / 2.0 - self.font_size / 2.0] # Centraliza texto verticalmente
+                        padding_y: dp(12), dp(12)
 
                 # TURMA E DATA (Mesma Linha) - ESTRUTURA AJUSTADA
                 GridLayout:
                     cols: 4 # Duas colunas para Turma (Label + Input) e duas para Data (Label + Input)
                     size_hint_y: None
                     height: dp(48)
-                    spacing: dp(5) # Espaçamento reduzido para aproximar mais os elementos
+                    spacing: dp(10) # Espaçamento reduzido para aproximar mais os elementos
 
                     Label:
                         text: 'Turma:'
@@ -185,9 +185,9 @@ ScreenManager:
                         id: turma_input
                         hint_text: 'Ex: 1001'
                         multiline: False
-                        size_hint_x: 1 # Ocupa o restante do espaço na linha para Turma (dentro de sua coluna)
+                        size_hint_x: 0.6 # Ocupa o restante do espaço na linha para Turma (dentro de sua coluna)
                         padding_x: dp(10), dp(10) # Adicionado padding horizontal
-                        padding_y: [self.height / 2.0 - self.font_size / 2.0, self.height / 2.0 - self.font_size / 2.0] # Centraliza texto verticalmente
+                        padding_y: dp(12), dp(12)
                         
                     Label:
                         text: 'Data:'
@@ -200,10 +200,10 @@ ScreenManager:
                         id: data_input
                         hint_text: 'DD/MM/AAAA'
                         multiline: False
-                        size_hint_x: 1 # Ocupa o restante do espaço na linha para Data (dentro de sua coluna)
+                        size_hint_x: 0.4 # Ocupa o restante do espaço na linha para Data (dentro de sua coluna)
                         on_focus: if self.focus: root.show_date_picker()
-                        padding_y: [self.height / 2.0 - self.font_size / 2.0, self.height / 2.0 - self.font_size / 2.0] # Centraliza texto verticalmente
-                        padding_x: dp(10), dp(10) # <--- ESSENCIAL PARA RESOLVER O CORTE HORIZONTAL
+                        padding_y: dp(12), dp(12)
+                        padding_x: dp(10), dp(10)
 
                 # PROFESSOR (Linha Única)
                 GridLayout:
@@ -224,7 +224,7 @@ ScreenManager:
                         multiline: False
                         size_hint_x: 1
                         padding_x: dp(10), dp(10) # Adicionado padding horizontal
-                        padding_y: [self.height / 2.0 - self.font_size / 2.0, self.height / 2.0 - self.font_size / 2.0] # Centraliza texto verticalmente
+                        padding_y: dp(12), dp(12)
 
                 # NATUREZA (Linha Única)
                 GridLayout:
@@ -316,10 +316,12 @@ ScreenManager:
         # --- Campos de busca ---
         BoxLayout: # Layout para o campo de busca por Aluno
             orientation: 'horizontal'
-            size_hint_y: 0.12
+            size_hint_y: None
+            height: dp(48)
             Label:
                 text: 'Aluno(a):'
                 size_hint_x: 0.3
+                valign: 'middle'
             TextInput:
                 id: query_aluno_input
                 multiline: False
@@ -327,14 +329,16 @@ ScreenManager:
                 size_hint_y: None # <-- Define altura fixa
                 height: dp(48) # <-- Altura padronizada para TextInputs/Spinners
                 padding_x: dp(10), dp(10) # Adicionado padding horizontal
-                padding_y: [self.height / 2.0 - self.font_size / 2.0, self.height / 2.0 - self.font_size / 2.0]
+                padding_y: dp(12), dp(12)
 
         BoxLayout: # Layout para o campo de busca por Turma
             orientation: 'horizontal'
-            size_hint_y: 0.12
+            size_hint_y: None
+            height: dp(48)
             Label:
                 text: 'Turma:'
                 size_hint_x: 0.3
+                valign: 'middle'
             TextInput:
                 id: query_turma_input
                 multiline: False
@@ -342,14 +346,16 @@ ScreenManager:
                 size_hint_y: None # <-- Define altura fixa
                 height: dp(48) # <-- Altura padronizada para TextInputs/Spinners
                 padding_x: dp(10), dp(10) # Adicionado padding horizontal
-                padding_y: [self.height / 2.0 - self.font_size / 2.0, self.height / 2.0 - self.font_size / 2.0]
+                padding_y: dp(12), dp(12)
             
         BoxLayout: # Layout para o campo de busca por Natureza
             orientation: 'horizontal'
-            size_hint_y: 0.12
+            size_hint_y: None
+            height: dp(48)
             Label:
                 text: 'Natureza:'
                 size_hint_x: 0.3
+                valign: 'middle'
             Spinner:
                 id: query_natureza_spinner
                 text: 'Selecione a Natureza'
@@ -367,7 +373,7 @@ ScreenManager:
             on_release: root.perform_query()
 
         Widget: # Adicione um widget vazio para empurrar o botão "Voltar" para baixo
-            size_hint_y: 0.15 # Ajustado para preencher o espaço restante
+            size_hint_y: 1 # Ajustado para preencher o espaço restante
             
         Button: # Botão Voltar (AGORA FORA DO TEXTINPUT, ALINHADO AO BOXLAYOUT PRINCIPAL)
             text: 'Voltar para o Início'
@@ -422,8 +428,9 @@ ScreenManager:
                 size_hint_y: None
                 height: dp(48)
                 input_type: 'mail'
+                font_size: '16sp'
                 padding_x: dp(10), dp(10) # Adicionado padding horizontal
-                padding_y: [self.height / 2.0 - self.font_size / 2.0, self.height / 2.0 - self.font_size / 2.0]
+                padding_y: dp(12), dp(12)
 
             TextInput:
                 id: password_input_login
@@ -432,8 +439,9 @@ ScreenManager:
                 password: True
                 size_hint_y: None
                 height: dp(48)
+                font_size: '16sp'
                 padding_x: dp(10), dp(10) # Adicionado padding horizontal
-                padding_y: [self.height / 2.0 - self.font_size / 2.0, self.height / 2.0 - self.font_size / 2.0]
+                padding_y: dp(12), dp(12)
 
             Button:
                 text: 'Entrar'
@@ -496,8 +504,9 @@ ScreenManager:
                 size_hint_y: None
                 height: dp(48)
                 input_type: 'mail'
+                font_size: '16sp'
                 padding_x: dp(10), dp(10) # Adicionado padding horizontal
-                padding_y: [self.height / 2.0 - self.font_size / 2.0, self.height / 2.0 - self.font_size / 2.0]
+                padding_y: dp(12), dp(12)
 
             TextInput:
                 id: password_input_register
@@ -506,8 +515,9 @@ ScreenManager:
                 password: True
                 size_hint_y: None
                 height: dp(48)
+                font_size: '16sp'
                 padding_x: dp(10), dp(10) # Adicionado padding horizontal
-                padding_y: [self.height / 2.0 - self.font_size / 2.0, self.height / 2.0 - self.font_size / 2.0]
+                padding_y: dp(12), dp(12)
 
             TextInput:
                 id: confirm_password_input_register
@@ -516,8 +526,9 @@ ScreenManager:
                 password: True
                 size_hint_y: None
                 height: dp(48)
+                font_size: '16sp'
                 padding_x: dp(10), dp(10) # Adicionado padding horizontal
-                padding_y: [self.height / 2.0 - self.font_size / 2.0, self.height / 2.0 - self.font_size / 2.0]
+                padding_y: dp(12), dp(12)
 
             Button:
                 text: 'Registrar'

@@ -1,0 +1,1021 @@
+--------- beginning of main
+06-27 19:44:47.364  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:47.564  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:47.764  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:47.910 25032 25032 W ThreadPoolForeg: type=1400 audit(0.0:103636): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=27986 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+06-27 19:44:47.964  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+--------- beginning of system
+06-27 19:44:47.965  1627  1901 W ActivityManager: Unable to start service Intent { cmp=com.miui.powerkeeper/.perfshielder.PerfShielderStatisticsService } U=0: not found
+06-27 19:44:47.965  1627  1901 V PerfShielderService: Miui powerkeeper: can't bind to com.miui.powerkeeper.perfshielder.PerfShielderStatisticsService
+06-27 19:44:48.165  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:48.365  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:48.565  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:48.699 24983 24983 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mobstore.service.START pkg=com.google.android.gms }
+06-27 19:44:48.765  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:48.966  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:49.166  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:49.366  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:49.567  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:49.767  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:49.819 25032 25032 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+06-27 19:44:49.864 24983 24983 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.audit.service.START pkg=com.google.android.gms }
+06-27 19:44:49.895 24983 24983 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.facs.internal.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalApiService }
+06-27 19:44:49.897  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 99496, uidState = 5
+06-27 19:44:49.967  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:50.168  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:50.368  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:50.568  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:50.768  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:50.969  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:51.169  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:51.369  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:51.570  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:51.770  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:51.970  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:52.170  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:52.371  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:52.571  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:52.771  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:52.971  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:53.172  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:53.372  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:53.572  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:53.772  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:53.973  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:54.173  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:54.281  2919  3349 D LocalBluetoothAdapter: isSupportBluetoothRestrict = 0
+06-27 19:44:54.282  2919  3349 D LocalBluetoothAdapter: isSupportBluetoothRestrict = 0
+06-27 19:44:54.288  2919  2919 D TileLayoutImpl: measure finished, width 1080, height 1151, rows 1, cell height 275, cell margin 17, header height 533, header margin 51.
+06-27 19:44:54.290  1627  5969 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:44:54.291  2919  2919 D TileLayoutImpl: measure finished, width 1080, height 1151, rows 1, cell height 275, cell margin 17, header height 533, header margin 51.
+06-27 19:44:54.302  2919  2919 D TileLayoutImpl: measure finished, width 1080, height 1151, rows 3, cell height 275, cell margin 17, header height 0, header margin 0.
+06-27 19:44:54.304  1627  5969 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:44:54.305  2919  2919 D TileLayoutImpl: measure finished, width 1080, height 1151, rows 3, cell height 275, cell margin 17, header height 0, header margin 0.
+06-27 19:44:54.373  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:54.573  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:54.774  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:54.884  2919  3142 D MobileStatusTracker(1): onSignalStrengthsChanged signalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 miuiLevel=0 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 miuiLevel=0 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 miuiLevel=0 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 miuiLevel=0 level=0,mLte=CellSignalStrengthLte: rssi=-83 rsrp=-114 rsrq=-12 rssnr=2 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 miuiLevel=2 level=2 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 miuiLevel = 0 level = 0 parametersUseForLevel = 0 },primary=CellSignalStrengthLte}
+06-27 19:44:54.884  2919  3142 D NetworkController.MobileSignalController(1): update5GConnectState: false
+06-27 19:44:54.884  2919  3142 D NetworkController.MobileSignalController(1): NotQcom5G, signal level = 2
+06-27 19:44:54.974  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:55.174  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:55.374  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:55.575  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:55.775  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:55.975  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:56.175  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:56.376  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:56.576  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:56.776  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:56.976  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:57.177  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:57.377  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:57.577  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:57.777  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:57.978  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:58.178  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:58.378  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:58.424  2919  3142 D MobileStatusTracker(1): onSignalStrengthsChanged signalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 miuiLevel=0 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 miuiLevel=0 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 miuiLevel=0 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 miuiLevel=0 level=0,mLte=CellSignalStrengthLte: rssi=-85 rsrp=-114 rsrq=-10 rssnr=3 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 miuiLevel=2 level=2 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 miuiLevel = 0 level = 0 parametersUseForLevel = 0 },primary=CellSignalStrengthLte}
+06-27 19:44:58.424  2919  3142 D NetworkController.MobileSignalController(1): update5GConnectState: false
+06-27 19:44:58.424  2919  3142 D NetworkController.MobileSignalController(1): NotQcom5G, signal level = 2
+06-27 19:44:58.578  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:58.732  2919  2919 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1906 android.content.ContextWrapper.bindService:822 android.service.quickaccesswallet.QuickAccessWalletClientImpl.connectInternal:349 android.service.quickaccesswallet.QuickAccessWalletClientImpl.$r8$lambda$ZVs3IwfL14SOwWl64RtuB_VVX0M:0 android.service.quickaccesswallet.QuickAccessWalletClientImpl$$ExternalSyntheticLambda4.run:2 
+06-27 19:44:58.744  1627  5857 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 19:44:58.744  1627  5857 D CompatibilityInfo: applicationDensity - 440
+06-27 19:44:58.744  1627  5857 D CompatibilityInfo: applicationScale - 1.0
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: DISK_READ [CONTEXT service_id=256 ]
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: android.os.strictmode.DiskReadViolation
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1659)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at libcore.io.BlockGuardOs.access(BlockGuardOs.java:74)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at libcore.io.ForwardingOs.access(ForwardingOs.java:128)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.app.ActivityThread$AndroidOs.access(ActivityThread.java:8180)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:332)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at java.io.File.exists(File.java:829)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.app.ContextImpl.getDataDir(ContextImpl.java:2901)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.app.ContextImpl.getPreferencesDir(ContextImpl.java:698)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.app.ContextImpl.getSharedPreferencesPath(ContextImpl.java:925)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:547)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:206)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:206)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at bzrm.a(:com.google.android.gms@252431029@25.24.31 (190400-772615181):59)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at bphi.getSharedPreferences(:com.google.android.gms@252431029@25.24.31 (190400-772615181):5)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:206)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:206)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at cgho.a(:com.google.android.gms@252431029@25.24.31 (190400-772615181):1)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at cghr.a(:com.google.android.gms@252431029@25.24.31 (190400-772615181):145)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at enkk.<init>(:com.google.android.gms@252431029@25.24.31 (190400-772615181):9)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at elye.<init>(:com.google.android.gms@252431029@25.24.31 (190400-772615181):14)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at elyl.onCreate(:com.google.android.gms@252431029@25.24.31 (190400-772615181):18)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at enkl.onCreate(:com.google.android.gms@252431029@25.24.31 (190400-772615181):7)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at vqw.onCreate(:com.google.android.gms@252431029@25.24.31 (190400-772615181):18)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at atup.onCreate(:com.google.android.gms@252431029@25.24.31 (190400-772615181):19)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4639)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.app.ActivityThread.access$1800(ActivityThread.java:271)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2153)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.os.Looper.loopOnce(Looper.java:210)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.os.Looper.loop(Looper.java:299)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8319)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:556)
+06-27 19:44:58.749 25032 14011 W GmsStrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1038)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: DISK_READ [CONTEXT service_id=256 ]
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: android.os.strictmode.DiskReadViolation
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1659)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at libcore.io.BlockGuardOs.access(BlockGuardOs.java:74)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at libcore.io.ForwardingOs.access(ForwardingOs.java:128)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.app.ActivityThread$AndroidOs.access(ActivityThread.java:8180)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:332)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at java.io.File.exists(File.java:829)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:753)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:744)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.app.ContextImpl.getPreferencesDir(ContextImpl.java:700)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.app.ContextImpl.getSharedPreferencesPath(ContextImpl.java:925)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:547)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:206)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:206)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at bzrm.a(:com.google.android.gms@252431029@25.24.31 (190400-772615181):59)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at bphi.getSharedPreferences(:com.google.android.gms@252431029@25.24.31 (190400-772615181):5)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:206)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:206)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at cgho.a(:com.google.android.gms@252431029@25.24.31 (190400-772615181):1)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at cghr.a(:com.google.android.gms@252431029@25.24.31 (190400-772615181):145)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at enkk.<init>(:com.google.android.gms@252431029@25.24.31 (190400-772615181):9)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at elye.<init>(:com.google.android.gms@252431029@25.24.31 (190400-772615181):14)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at elyl.onCreate(:com.google.android.gms@252431029@25.24.31 (190400-772615181):18)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at enkl.onCreate(:com.google.android.gms@252431029@25.24.31 (190400-772615181):7)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at vqw.onCreate(:com.google.android.gms@252431029@25.24.31 (190400-772615181):18)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at atup.onCreate(:com.google.android.gms@252431029@25.24.31 (190400-772615181):19)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:4639)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.app.ActivityThread.access$1800(ActivityThread.java:271)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2153)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.os.Looper.loopOnce(Looper.java:210)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.os.Looper.loop(Looper.java:299)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8319)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:556)
+06-27 19:44:58.750 25032 14011 W GmsStrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1038)
+06-27 19:44:58.757  1627  5857 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 19:44:58.757  1627  5857 D CompatibilityInfo: applicationDensity - 440
+06-27 19:44:58.758  1627  5857 D CompatibilityInfo: applicationScale - 1.0
+06-27 19:44:58.758  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 99496, uidState = 3
+06-27 19:44:58.759 24983 24983 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.pay.service.BIND dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+06-27 19:44:58.759 24983 24983 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.pay.service.BIND dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+06-27 19:44:58.763  2919  2919 D TileLayoutImpl: measure finished, width 1080, height 1151, rows 3, cell height 275, cell margin 17, header height 0, header margin 0.
+06-27 19:44:58.765  1627  5969 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:44:58.767  2919  2919 D TileLayoutImpl: measure finished, width 1080, height 1151, rows 3, cell height 275, cell margin 17, header height 0, header margin 0.
+06-27 19:44:58.779  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:58.792 25032 14011 I TapAndPay: Getting intent [CONTEXT service_id=79 ]
+06-27 19:44:58.792 25032 14011 I TapAndPay: Not at least Baklava. Navigating to card details. [CONTEXT service_id=79 ]
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: CUSTOM_SLOW_CALL [CONTEXT service_id=256 ]
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: android.os.strictmode.CustomViolation: Warning: attempt to read pixels from hardware bitmap, which is very slow operation
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onCustomSlowCall(StrictMode.java:1626)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.StrictMode.noteSlowCall(StrictMode.java:2694)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.graphics.Bitmap.noteHardwareBitmapSlowCall(Bitmap.java:668)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.graphics.Bitmap.writeToParcel(Bitmap.java:2139)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.graphics.drawable.Icon.writeToParcel(Icon.java:918)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.service.quickaccesswallet.WalletCard.writeToParcel(WalletCard.java:59)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.Parcel.writeParcelable(Parcel.java:1953)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.Parcel.writeParcelableList(Parcel.java:1737)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.service.quickaccesswallet.GetWalletCardsResponse.writeToParcel(GetWalletCardsResponse.java:59)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.service.quickaccesswallet.IQuickAccessWalletServiceCallbacks$Stub$Proxy.onGetWalletCardsSuccess(IQuickAccessWalletServiceCallbacks.java:170)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.service.quickaccesswallet.GetWalletCardsCallbackImpl.onSuccessInternal(GetWalletCardsCallbackImpl.java:84)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.service.quickaccesswallet.GetWalletCardsCallbackImpl.lambda$onSuccess$0$GetWalletCardsCallbackImpl(GetWalletCardsCallbackImpl.java:58)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.service.quickaccesswallet.GetWalletCardsCallbackImpl$$ExternalSyntheticLambda2.run(Unknown Source:4)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.Looper.loopOnce(Looper.java:210)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.Looper.loop(Looper.java:299)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8319)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:556)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1038)
+06-27 19:44:58.800  2919  2919 I QuickAccessWalletTile: Successfully retrieved wallet cards.
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: CUSTOM_SLOW_CALL [CONTEXT service_id=256 ]
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: android.os.strictmode.CustomViolation: Warning: attempt to read pixels from hardware bitmap, which is very slow operation
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onCustomSlowCall(StrictMode.java:1626)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.StrictMode.noteSlowCall(StrictMode.java:2694)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.graphics.Bitmap.noteHardwareBitmapSlowCall(Bitmap.java:668)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.graphics.Bitmap.writeToParcel(Bitmap.java:2139)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.graphics.drawable.Icon.writeToParcel(Icon.java:918)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.service.quickaccesswallet.WalletCard.writeToParcel(WalletCard.java:66)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.Parcel.writeParcelable(Parcel.java:1953)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.Parcel.writeParcelableList(Parcel.java:1737)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.service.quickaccesswallet.GetWalletCardsResponse.writeToParcel(GetWalletCardsResponse.java:59)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.service.quickaccesswallet.IQuickAccessWalletServiceCallbacks$Stub$Proxy.onGetWalletCardsSuccess(IQuickAccessWalletServiceCallbacks.java:170)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.service.quickaccesswallet.GetWalletCardsCallbackImpl.onSuccessInternal(GetWalletCardsCallbackImpl.java:84)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.service.quickaccesswallet.GetWalletCardsCallbackImpl.lambda$onSuccess$0$GetWalletCardsCallbackImpl(GetWalletCardsCallbackImpl.java:58)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.service.quickaccesswallet.GetWalletCardsCallbackImpl$$ExternalSyntheticLambda2.run(Unknown Source:4)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.Looper.loopOnce(Looper.java:210)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.os.Looper.loop(Looper.java:299)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8319)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:556)
+06-27 19:44:58.800 25032 14011 W GmsStrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1038)
+06-27 19:44:58.813  2919  2919 D TileLayoutImpl: measure finished, width 1080, height 1151, rows 3, cell height 275, cell margin 17, header height 0, header margin 0.
+06-27 19:44:58.815  1627  5969 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:44:58.818  2919  2919 D TileLayoutImpl: measure finished, width 1080, height 1151, rows 3, cell height 275, cell margin 17, header height 0, header margin 0.
+06-27 19:44:58.878  1627  1657 I system_server: Background concurrent copying GC freed 23MB AllocSpace bytes, 8(176KB) LOS objects, 28% free, 60MB/84MB, paused 156us,93us total 144.491ms
+06-27 19:44:58.893  1627  1659 W System  : A resource failed to call close. 
+06-27 19:44:58.894  1627  1659 W System  : A resource failed to call close. 
+06-27 19:44:58.932 25032 25042 I .gms.persisten: Background concurrent copying GC freed 23MB AllocSpace bytes, 55(1720KB) LOS objects, 41% free, 34MB/58MB, paused 109us,44us total 182.430ms
+06-27 19:44:58.979  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:59.179  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:59.379  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:59.580  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:59.780  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:44:59.980  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:00.000  1627  2269 V AlarmManager: Triggering alarm #0: Alarm{9ee6ae8 type 3 origWhen 95604532 whenElapsed 95604532 android}
+06-27 19:45:00.002  2919  2919 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+06-27 19:45:00.002  2919  2919 D KeyguardUpdateMonitor: handleTimeUpdate
+06-27 19:45:00.023  1627  5982 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:45:00.180  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:00.381  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:00.581  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:00.781  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:00.981  2919  3142 D MobileStatusTracker(1): onSignalStrengthsChanged signalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 miuiLevel=0 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 miuiLevel=0 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 miuiLevel=0 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 miuiLevel=0 level=0,mLte=CellSignalStrengthLte: rssi=-85 rsrp=-115 rsrq=-12 rssnr=2 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 miuiLevel=2 level=2 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 miuiLevel = 0 level = 0 parametersUseForLevel = 0 },primary=CellSignalStrengthLte}
+06-27 19:45:00.981  2919  3142 D NetworkController.MobileSignalController(1): update5GConnectState: false
+06-27 19:45:00.981  2919  3142 D NetworkController.MobileSignalController(1): NotQcom5G, signal level = 2
+06-27 19:45:00.981  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:01.182  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:01.382  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:01.398  1627  1822 D HeapUsage Monitor: HeapAllocSize : 60MB; monitorSize : 500MB
+06-27 19:45:01.580  5878  6029 I bbkx    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+06-27 19:45:01.582  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:01.783  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:01.983  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:02.183  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:02.383  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:02.415  1627  2388 D MIUIInput: [MotionEvent] publisher action=0x4, 57268392, channel '83dff92 NavigationBar0 (server)'
+06-27 19:45:02.415  1627  2388 D MIUIInput: [MotionEvent] publisher action=0x0, 57268392, channel '9b02302 com.miui.home/com.miui.home.launcher.Launcher (server)'
+06-27 19:45:02.415  1627  2388 D MIUIInput: [MotionEvent] publisher action=0x0, 57268392, channel '8ba4243 com.miui.miwallpaper.wallpaperservice.MiuiKeyguardPictorialWallpaper (server)'
+06-27 19:45:02.415  1627  2388 D MIUIInput: [MotionEvent] publisher action=0x0, 57268392, channel '8426ed4 com.miui.miwallpaper.wallpaperservice.ImageWallpaper (server)'
+06-27 19:45:02.416 25950 25950 D EventBus: No subscribers registered for event class com.miui.home.launcher.common.messages.EndSpringAnimatorMessage
+06-27 19:45:02.417 25950 25950 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+06-27 19:45:02.417 25950 25950 D FeedSwipeController: touchState : 0 scrolling : false normalEditing : false WidgetThumbnailViewShowing : false UninstallDialogShowing : false isMinusScreenShowing: false
+06-27 19:45:02.417 25950 25950 D FeedSwipeController: can not use
+06-27 19:45:02.417 25950 25950 D Launcher.StatusBarController: try intercept touch, isProxySurvive=true
+06-27 19:45:02.418 25950 25950 D Launcher.Workspace: Workspace touch down
+06-27 19:45:02.418 25950 25950 D ScreenView_Workspace: onIntercept:0.0
+06-27 19:45:02.418 25950 25950 D ScreenView_Workspace: not intercept
+06-27 19:45:02.418 25950 25950 D Launcher.CellLayout: touch item:ShortcutInfo, id=787, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=org.alexandreareias.edmundoapp, className=org.kivy.android.PythonActivity, screenId=3, container=-100, cellX=3, cellY=3, spanX=1, spanY=1
+06-27 19:45:02.419 25950 25950 D Launcher.itemIcon: folmeDown
+06-27 19:45:02.422 25950 26230 D Launcher.Boost: bindcore 200
+06-27 19:45:02.481  1627  2388 D MIUIInput: [MotionEvent] publisher action=0x1, 57268458, channel '9b02302 com.miui.home/com.miui.home.launcher.Launcher (server)'
+06-27 19:45:02.481  1627  2388 D MIUIInput: [MotionEvent] publisher action=0x1, 57268458, channel '8ba4243 com.miui.miwallpaper.wallpaperservice.MiuiKeyguardPictorialWallpaper (server)'
+06-27 19:45:02.481  1627  2388 D MIUIInput: [MotionEvent] publisher action=0x1, 57268458, channel '8426ed4 com.miui.miwallpaper.wallpaperservice.ImageWallpaper (server)'
+06-27 19:45:02.482 25950 25950 D Launcher.Workspace: Workspace touch up or cancel
+06-27 19:45:02.482 25950 25950 D ScreenView_Workspace: oninterceput up
+06-27 19:45:02.482 25950 25950 E BranchAllAppsIndicator: changedByBranch: callBack = null
+06-27 19:45:02.482 25950 25950 D Launcher.itemIcon: folmeUp
+06-27 19:45:02.485 25950 25950 D Launcher.AnalyticalDataCollector: inDesktop, screenIndex=2, row3, column=3
+06-27 19:45:02.487 25950 25950 E QuickstepAppTransitionManagerImpl: getActivityLaunchOptions   iconLoc=Rect(838, 1098 - 1010, 1270)
+06-27 19:45:02.489  1627  5982 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity bnds=[838,1098][1010,1270] (has extras)} from uid 10092 from pid 25950 callingPackage com.miui.home
+06-27 19:45:02.493  1053  1109 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+06-27 19:45:02.493  1053  3925 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+06-27 19:45:02.494  1053  1109 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+06-27 19:45:02.495  1627  5982 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-27 19:45:02.496  1627  5982 W ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=3388 attached=false
+06-27 19:45:02.496  1627  5982 V ActivityTaskManager: onConfigurationChanged overrideWindowingMode = 0 prevWindowingMode = 0 isEnterFreeformMode = false isEnterFreeformMode = false isOutFreeformMode = false alreadySetFreeformBounds = false
+06-27 19:45:02.497  1052  3918 E ANDR-IOP: io prefetch is disabled
+06-27 19:45:02.499  1627  5982 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10869; state: DISABLED
+06-27 19:45:02.500  1627  5982 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10869; state: DISABLED
+06-27 19:45:02.500  1627  5982 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10869; state: DISABLED
+06-27 19:45:02.500  1627  5982 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10869; state: DISABLED
+06-27 19:45:02.501  1627  5982 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10869; state: DISABLED
+06-27 19:45:02.504  1627  5982 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10869; state: DISABLED
+06-27 19:45:02.504  1627  5982 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 19:45:02.504  1627  5982 D CompatibilityInfo: applicationDensity - 440
+06-27 19:45:02.504  1627  5982 D CompatibilityInfo: applicationScale - 1.0
+06-27 19:45:02.506  1627  5982 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 19:45:02.511  2919  3120 E ndroid.systemu: Invalid ID 0x00000000.
+06-27 19:45:02.514  2919  2919 D OneHandedController: stopOneHanded state isTransitioning or STATE_NONE
+06-27 19:45:02.515 25950 12715 D TaskStackChangeListeners: onTaskDisplayChanged =  taskId = 3388 newDisplayId = 0
+06-27 19:45:02.517  1627  1817 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10869; state: DISABLED
+06-27 19:45:02.517  2919  2919 D OneHandedController: stopOneHanded state isTransitioning or STATE_NONE
+06-27 19:45:02.517  2919  2919 D OneHandedController: stopOneHanded state isTransitioning or STATE_NONE
+06-27 19:45:02.520 25950 25950 D Launcher.Lifecycle: onPause:UserHandle{0},ce92670,true
+06-27 19:45:02.520 25950 25950 D Launcher_UnlockAnimationStateMachine: onPause = IDLE
+06-27 19:45:02.520 25950 25950 D Launcher_UnlockAnimationStateMachine: setState:PAUSE_WAIT
+06-27 19:45:02.522  1627  1817 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10869; state: DISABLED
+06-27 19:45:02.522  1627  1817 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10869; state: DISABLED
+06-27 19:45:02.522  1627  1817 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10869; state: ENABLED
+06-27 19:45:02.522  1627  1906 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10869; state: ENABLED
+06-27 19:45:02.523  2919  3121 D TaskSnapshot_Helper: SYS is normal.
+06-27 19:45:02.527  1053  1109 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+06-27 19:45:02.527  1053  1109 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+06-27 19:45:02.537  1627  5857 D WindowManager: Input focus has changed to null display=0 updateInputWindows = true
+06-27 19:45:02.537  1627  5857 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:45:02.541 25950 25950 D Launcher.Lifecycle: onWindowFocusChanged:false,UserHandle{0},ce92670,true
+06-27 19:45:02.541 25950 25950 D DecorView[]: onWindowFocusChanged hasWindowFocus false
+06-27 19:45:02.542  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.543  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.546  1627  5969 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 19:45:02.546  1627  5969 D CompatibilityInfo: applicationDensity - 440
+06-27 19:45:02.546  1627  5969 D CompatibilityInfo: applicationScale - 1.0
+06-27 19:45:02.548 24983 24983 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+06-27 19:45:02.548 24983 24983 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+06-27 19:45:02.551  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 10869, uidState = 19
+06-27 19:45:02.551  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.551  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.560   884   884 D Zygote  : Forked child process 17348
+06-27 19:45:02.560  1627  1906 D Boost   : hostingType=pre-top-activity, hostingName={org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity}, callerPackage=others, isSystem=true, isBoostNeeded=false.
+06-27 19:45:02.563  1627  1906 I ActivityManager: Start proc 17348:org.alexandreareias.edmundoapp/u0a869 for pre-top-activity {org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity} caller=others
+06-27 19:45:02.563  1053  3925 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+06-27 19:45:02.563  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.564  1053  1109 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+06-27 19:45:02.564  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.577 25950 25964 E LauncherAnimationRunner: onAnimationStart
+06-27 19:45:02.577 25950 25964 E LauncherAnimationRunner: onAnimationStart:   mode=1   taskId=2   isTranslucent=false
+06-27 19:45:02.577 25950 25964 E LauncherAnimationRunner: onAnimationStart:   mode=0   taskId=3388   isTranslucent=false
+06-27 19:45:02.580  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.580  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.582 25950 25950 E QuickstepAppTransitionManagerImpl: startIconLaunchAnimator:launcherClosing=true   iconLoc=Rect(838, 1098 - 1010, 1270)
+06-27 19:45:02.582 25950 25950 E QuickstepAppTransitionManagerImpl: startOpeningWindowAnimators:iconLoc=Rect(838, 1098 - 1010, 1270)
+06-27 19:45:02.582 25950 25950 E ClipAnimationHelper: updateSourceStack  mSourceInsets=Rect(0, 102 - 0, 130), mSourceStackBounds=Rect(0, 0 - 1080, 2400)
+06-27 19:45:02.582 25950 25950 E ClipAnimationHelper: updateHomeStack  mSourceInsets=Rect(0, 102 - 0, 130), mHomeStackBounds=Rect(0, 0 - 1080, 2400)
+06-27 19:45:02.582 25950 25950 E ClipAnimationHelper: updateTargetRect  mSourceRect=RectF(0.0, 102.0, 1080.0, 2502.0)   mTargetRect=RectF(0.0, 0.0, 1080.0, 2400.0)   mSourceWindowClipInsets=RectF(0.0, 102.0, 0.0, 0.0)   mHomeStackBounds=Rect(0, 0 - 1080, 2400)   targetRect=Rect(0, 0 - 1080, 2400)
+06-27 19:45:02.583 25950 25950 I QuickstepAppTransitionManagerImpl: startOpeningWindowAnimators, currentDisplayRotation=0, homeRotation=0, startRectF=RectF(838.0, 1098.0, 1010.0, 1270.0), endRectF=RectF(0.0, 0.0, 1080.0, 2400.0), startRadius = 226.04651, endRadius = 90.0, isUseTranslucentAnim = false
+06-27 19:45:02.583 25950 25950 E QuickstepAppTransitionManagerImpl: startLauncherContentAnimator:isAppOpening=true
+06-27 19:45:02.583 25950 27291 W FloatingIconLayer: getFloatingIconLayer
+06-27 19:45:02.584  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:02.585 25950 27291 W FloatingIconLayer: drawIcon
+06-27 19:45:02.592 17348 17348 I eias.edmundoap: Late-enabling -Xcheck:jni
+06-27 19:45:02.595  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.595  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.608  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.609  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.614 17348 17348 I eias.edmundoap: Using CollectorTypeCC GC.
+06-27 19:45:02.619  4870  4875 I adbd    : jdwp connection from 17348
+06-27 19:45:02.620 26283 26283 I cpwx    : onPause
+06-27 19:45:02.625  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.625  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.629 17348 17348 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-27 19:45:02.632 25950 25964 D RecentsModel: onTaskStackChangedBackground
+06-27 19:45:02.632 25950 27307 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+06-27 19:45:02.632 25950 27307 D RecentsModel: preloadRecents
+06-27 19:45:02.632 25950 27307 W RecentsModel: getRunningTask
+06-27 19:45:02.633 26331 27249 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 19:45:02.633  8221  9648 I MultiScreenObserver: onTaskStackChanged, splitScreenMode: false isCameraFloat: false isSmallScreen: false
+06-27 19:45:02.633 26331 26343 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 19:45:02.634 25950 27307 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=3388 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity } baseActivity=ComponentInfo{org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity} topActivity=ComponentInfo{org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity} origActivity=null realActivity=ComponentInfo{org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity} numActivities=1 lastActiveTime=95607165 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true token=WCT{android.window.IWindowContainerToken$Stub$Proxy@1dccd6c} topActivityType=1 pictureInPictureParams=PictureInPictureParams( aspectRatio=null sourceRectHint=null hasSetActions=false isAutoPipEnabled=false isSeamlessResizeEnabled=true) displayCutoutSafeInsets=Rect(0, 102 - 0, 0) topActivityInfo=ActivityInfo{f228f35 org.kivy.android.PythonActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true topActivityInSizeCompat=false locusId= null windowMode=0}
+06-27 19:45:02.634 25950 27307 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity}
+06-27 19:45:02.634 17348 17348 I MessageMonitor: Load libmiui_runtime
+06-27 19:45:02.635 25950 27307 E ActivityManagerWrapper: get all recent tasks force including 3388
+06-27 19:45:02.635 25950 25950 D Launcher_WallpaperUtils: changeStatusBarMode:false
+06-27 19:45:02.635 25950 26124 D StatusBarController: handleMessage: flag 800000  disable false
+06-27 19:45:02.637 25950 27307 E ActivityManagerWrapper: getRecentTasks: size=4
+06-27 19:45:02.637 25950 27307 E ActivityManagerWrapper: getRecentTasks: taskId=3388   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity} }
+06-27 19:45:02.637 25950 27307 E ActivityManagerWrapper: getRecentTasks: taskId=3387   userId=0   baseIntent=Intent { act=null flag=276824064 cmp=ComponentInfo{com.android.settings/com.android.settings.Settings$UsbDetailsActivity} }
+06-27 19:45:02.637 25950 27307 E ActivityManagerWrapper: getRecentTasks: taskId=3382   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.mi.android.globalFileexplorer/com.android.fileexplorer.FileExplorerTabActivity} }
+06-27 19:45:02.637 25950 27307 E ActivityManagerWrapper: getRecentTasks: taskId=3380   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.whatsapp/com.whatsapp.Main} }
+06-27 19:45:02.642  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.642  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.647  1053  1109 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+06-27 19:45:02.648  1627  5969 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 19:45:02.648  1627  5969 D CompatibilityInfo: applicationDensity - 440
+06-27 19:45:02.648  1627  5969 D CompatibilityInfo: applicationScale - 1.0
+06-27 19:45:02.653  1627  5969 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 19:45:02.653  1627  5969 D CompatibilityInfo: applicationDensity - 440
+06-27 19:45:02.653  1627  5969 D CompatibilityInfo: applicationScale - 1.0
+06-27 19:45:02.657 25950 26230 D Launcher.Boost: bindcore 63
+06-27 19:45:02.660 26331 26343 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='org.alexandreareias.edmundoapp', mForegroundUid=10869, mForegroundPid=17348, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10092, mLastForegroundPid=25950, mMultiWindowForegroundPackageName='org.alexandreareias.edmundoapp', mMultiWindowForegroundUid=10869, mFlags=1}
+06-27 19:45:02.659  8270  8303 I GST     : forePkg: org.alexandreareias.edmundoapp, preForePkg: com.miui.home
+06-27 19:45:02.660  8221  8419 I ThermalInfoCollector: collectForgroundAppsInfo: com.miui.home
+06-27 19:45:02.660 25792 31695 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='org.alexandreareias.edmundoapp', mForegroundUid=10869, mForegroundPid=17348, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10092, mLastForegroundPid=25950, mMultiWindowForegroundPackageName='org.alexandreareias.edmundoapp', mMultiWindowForegroundUid=10869, mFlags=1}
+06-27 19:45:02.660  8221 10446 D PerfEngineController: ForegroundInfo{mForegroundPackageName='org.alexandreareias.edmundoapp', mForegroundUid=10869, mForegroundPid=17348, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10092, mLastForegroundPid=25950, mMultiWindowForegroundPackageName='org.alexandreareias.edmundoapp', mMultiWindowForegroundUid=10869, mFlags=1}
+06-27 19:45:02.661  8221  8569 D LS-ForegroundStatusManager: handleMessage ForegroundInfoChanged. pkg = org.alexandreareias.edmundoapp, uid = 10869, mCurrentForegroundUid = 10092
+06-27 19:45:02.661  8221  8569 D LS-ForegroundStatusManager: onForegroundChanged mCurrentForegroundUid = 10092, new uid = 10869
+06-27 19:45:02.661  8221  8589 D ThermalIECHandler: IECAll48Allowed: false; IECMonitorAllowed: false; IECTestState: false
+06-27 19:45:02.662  1627  5857 V LocationPolicy: writePolicyLocked()
+06-27 19:45:02.662 25950 25964 D AppObserver: ForegroundInfo{mForegroundPackageName='org.alexandreareias.edmundoapp', mForegroundUid=10869, mForegroundPid=17348, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10092, mLastForegroundPid=25950, mMultiWindowForegroundPackageName='org.alexandreareias.edmundoapp', mMultiWindowForegroundUid=10869, mFlags=1}
+06-27 19:45:02.664  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.666  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 10869, uidState = 2
+06-27 19:45:02.666  1627  1815 D Aurogon :  uid = 10869 switch to FG
+06-27 19:45:02.666 26331 26343 I GameBoosterService: onForegroundInfoChanged: Cur=org.alexandreareias.edmundoapp	 last=com.miui.home
+06-27 19:45:02.666 25530 27040 D PMonitor:  onForegroundActivitiesChanged:pid = 17348,activity-uid=10869,foregroundActivities=true
+06-27 19:45:02.666 26331 26343 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='org.alexandreareias.edmundoapp', mForegroundUid=10869, mForegroundPid=17348, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10092, mLastForegroundPid=25950, mMultiWindowForegroundPackageName='org.alexandreareias.edmundoapp', mMultiWindowForegroundUid=10869, mFlags=1}
+06-27 19:45:02.667 26331 26343 I VideoBoxUtils: isSupportVideoBox: false
+06-27 19:45:02.667 26331 26343 I VideoToolBoxService: vtb is closed!!!
+06-27 19:45:02.668  5990  6010 W MQSService: CallerName:org.alexandreareias.edmundoapp,calling Uid:10869
+06-27 19:45:02.668  5990  6010 D MQSService: registerApplicationScoutThread pid = 17348, packageName = org.alexandreareias.edmundoapp
+06-27 19:45:02.668  1627  1815 D NetworkManagement: failed to update firewall rulle!
+06-27 19:45:02.670  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.674 25950 27291 W FloatingIconLayer: release
+06-27 19:45:02.675  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.676  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.680 17348 17348 I ActivityThread: Relaunch all activities: onCoreSettingsChange
+06-27 19:45:02.683 17348 17348 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10869; state: ENABLED
+06-27 19:45:02.685 17348 17360 D AppScoutStateMachine: 17348-ScoutStateMachinecreated
+06-27 19:45:02.694  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.694  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.702  8221  8589 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 94674207
+06-27 19:45:02.702  8221  8589 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 94674207
+06-27 19:45:02.704 17348 17348 W ActivityThread: Application org.alexandreareias.edmundoapp can be debugged on port 8100...
+06-27 19:45:02.708  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.710  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.700  1053  1053 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:103637): avc: denied { search } for comm=41646170744C61756E636820566D name="1817" dev="proc" ino=4505513 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+06-27 19:45:02.700  1053  1053 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:103638): avc: denied { search } for comm=41646170744C61756E636820566D name="1818" dev="proc" ino=4499875 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+06-27 19:45:02.700  1053  1053 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:103639): avc: denied { search } for comm=41646170744C61756E636820566D name="1819" dev="proc" ino=4499876 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+06-27 19:45:02.700  1053  1053 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:103640): avc: denied { search } for comm=41646170744C61756E636820566D name="2384" dev="proc" ino=4499877 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+06-27 19:45:02.700  1053  1053 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:103641): avc: denied { search } for comm=41646170744C61756E636820566D name="3269" dev="proc" ino=4505520 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+06-27 19:45:02.700  1053  1053 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:103642): avc: denied { search } for comm=41646170744C61756E636820566D name="3270" dev="proc" ino=4499878 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+06-27 19:45:02.714 17348 17348 W ziparchive: Unable to open '/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.dm': No such file or directory
+06-27 19:45:02.714 17348 17348 W ziparchive: Unable to open '/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.dm': No such file or directory
+06-27 19:45:02.723 17348 17348 D nativeloader: Configuring clns-4 for other apk /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk. target_sdk_version=31, uses_libraries=, library_path=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64:/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/org.alexandreareias.edmundoapp
+06-27 19:45:02.724  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.724  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.741  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.741  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.751 17348 17348 I Perf    : Connecting to perf service.
+06-27 19:45:02.758  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.758  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.763 17348 17348 V GraphicsEnvironment: ANGLE Developer option for 'org.alexandreareias.edmundoapp' set to: 'default'
+06-27 19:45:02.763 17348 17348 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-27 19:45:02.767 17348 17348 I ForceDarkHelperStubImpl: initialize for org.alexandreareias.edmundoapp , ForceDarkOrigin
+06-27 19:45:02.769 17348 17348 D nativeloader: Load libforcedarkimpl.so using system ns (caller=/system/framework/miui-framework.jar): ok
+06-27 19:45:02.769 17348 17348 D OpenGLRenderer: JNI_OnLoad success
+06-27 19:45:02.769 17348 17348 I MiuiForceDarkConfig: setConfig density:2.750000, mainRule:0, secondaryRule:0, tertiaryRule:0
+06-27 19:45:02.774  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.774  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.775 17348 17348 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-27 19:45:02.778 17348 17348 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-27 19:45:02.784  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:02.792  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.792  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.808  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.808  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.826  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.826  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.832 17348 17348 V PythonActivity: PythonActivity onCreate running
+06-27 19:45:02.833 17348 17348 V PythonActivity: About to do super onCreate
+06-27 19:45:02.833 17348 17348 V SDL     : Device: joyeuse
+06-27 19:45:02.833 17348 17348 V SDL     : Model: Redmi Note 9 Pro
+06-27 19:45:02.833 17348 17348 V SDL     : onCreate()
+06-27 19:45:02.841 17348 17348 V PythonActivity: Did super onCreate
+06-27 19:45:02.841 17348 17348 V SDL     : getting identifier
+06-27 19:45:02.841 17348 17348 V SDL     : kind is layout and name lottie
+06-27 19:45:02.842  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.842  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.844 17348 17348 V SDL     : result is 0
+06-27 19:45:02.844 17348 17348 E eias.edmundoap: Invalid ID 0x00000000.
+06-27 19:45:02.845 17348 17348 V SDL     : couldn't find lottie layout or animation, trying static splash
+06-27 19:45:02.845 17348 17348 V SDL     : getting identifier
+06-27 19:45:02.845 17348 17348 V SDL     : kind is drawable and name presplash
+06-27 19:45:02.846 17348 17348 V SDL     : result is 2130771969
+06-27 19:45:02.858  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.858  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.858 17348 17348 D ViewScrollStubImpl: the value of mScrollFrictionRes is: 0.015
+06-27 19:45:02.865 17348 17348 V SDL     : asked to get string presplash_color
+06-27 19:45:02.865 17348 17348 V SDL     : getting identifier
+06-27 19:45:02.865 17348 17348 V SDL     : kind is string and name presplash_color
+06-27 19:45:02.865 17348 17348 V SDL     : result is 2131034113
+06-27 19:45:02.872 17348 17348 E eias.edmundoap: Invalid ID 0x00000000.
+06-27 19:45:02.875  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.876  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.884 17348 17348 D MiuiMultiWindowUtils: freeform resolution args raw data:{  "zizhan":{    "freeform_args": {      "inner":{        "vertical_portrait":{"aspect_ratio":0.626, "original_ratio":0.5643,"original_scale":0.74,"top_margin":0.168,"left_margin":0.484},        "horizontal_portrait":{"aspect_ratio":0.626, "original_ratio":0.5643,"original_scale":0.74,"top_margin":0.1222,"left_margin":0.59745},        "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.604,"top_margin":0.2596,"left_margin":0.2624},        "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.604,"top_margin":0.213,"left_margin":0.3758}      },      "outer":{        "vertical_portrait":{"aspect_ratio":0.626, "original_ratio":1,"original_scale":0.74,"top_margin":0.0753,"left_margin":-1},        "horizontal_portrait":{"aspect_ratio":0.626, "original_ratio":1,"original_scale":0.5756,"top_margin":-1,"left_margin":0.0753},        "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":0.6847,"original_scale":0.587,"top_margin":0.0753,"left_margin":-1},        "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":0.6847,"original_scale":0.587,"top_margin":-1,"left_margin":0.0753}}    },    "mini_freeform_args":{      "inner":{        "vertical_portrait":{"aspect_ratio":0.626, "original_ratio":0.147},        "horizontal_portrait":{"aspect_ratio":0.626, "original_ratio":0.147},        "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":0.165},        "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":0.165}      },      "outer":{        "vertical_portrait":{"aspect_ratio":0.626, "original_ratio":0.26},        "horizontal_portrait":{"aspect_ratio":0.626, "original_ratio":0.26},        "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":0.293},        "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":0.293}}    }  },  "wide_default":{    "freeform_args": {        "vertical_portrait":{"aspect_ratio":0.625, "original_ratio":0.58,"original_scale":0.7574,"top_margin":0.125,"left_margin":-1},        "horizontal_portrait":{"aspect_ratio":0.625, "original_ratio":0.58,"original_scale":0.7574,"top_margin":-1,"left_margin":0.0714},        "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.5153,"top_margin":0.125,"left_margin":-1},        "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.5153,"top_margin":-1,"left_margin":0.0714}    },    "mini_freeform_args":{        "vertical_portrait":{"aspect_ratio":0.5625, "original_ratio":0.144},        "horizontal_portrait":{"aspect_ratio":0.5625, "original_ratio":0.144},        "vertical_landscape":{"aspect_ratio":-1, "original_ratio":0.144},        "horizontal_landscape":{"aspect_ratio":-1, "original_ratio":0.144}    }  },  "narrow_default": {    "freeform_args": {        "vertical_portrait":{"aspect_ratio":0.5625, "original_ratio":1,"original_scale":0.7182,"top_margin":0.142,"left_margin":-1},        "horizontal_portrait":{"aspect_ratio":0.8, "original_ratio":1,"original_scale":0.7182,"top_margin":-1,"left_margin":0.05},        "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":0.6545,"original_scale":0.4473,"top_margin":0.142,"left_margin":-1},        "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":0.6545,"original_scale":0.4473,"top_margin":-1,"left_margin":0.05}    },    "mini_freeform_args":{        "vertical_portrait":{"aspect_ratio":0.5625, "original_ratio":0.3},        "horizontal_portrait":{"aspect_ratio":0.5625, "original_ratio":0.3},        "vertical_landscape":{"aspect_ratio":1.7778, "original_ratio":0.3},        "horizontal_landscape":{"aspect_ratio":1.7778, "original_ratio":0.3}    }  },  "regular_default": {    "freeform_args": {      "vertical_portrait":{"aspect_ratio":0.625, "original_ratio":1,"original_scale":0.7,"top_margin":0.109,"left_margin":-1},      "horizontal_portrait":{"aspect_ratio":0.6667, "original_ratio":1,"original_scale":0.6102,"top_margin":-1,"left_margin":0.026},      "vertical_landscape":{"aspect_ratio
+06-27 19:45:02.891  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.891  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.900 17348 17348 W System.err: org.json.JSONException: No value for joyeuse
+06-27 19:45:02.902 17348 17348 W System.err: 	at org.json.JSONObject.get(JSONObject.java:398)
+06-27 19:45:02.902 17348 17348 W System.err: 	at org.json.JSONObject.getJSONObject(JSONObject.java:618)
+06-27 19:45:02.903 17348 17348 W System.err: 	at android.util.MiuiMultiWindowUtils.initFreeFormResolutionArgsOfDevice(MiuiMultiWindowUtils.java:1433)
+06-27 19:45:02.903 17348 17348 W System.err: 	at android.util.MiuiMultiWindowUtils.initFreeFormResolutionArgs(MiuiMultiWindowUtils.java:1427)
+06-27 19:45:02.903 17348 17348 W System.err: 	at android.util.MiuiMultiWindowUtils.<clinit>(MiuiMultiWindowUtils.java:209)
+06-27 19:45:02.903 17348 17348 W System.err: 	at com.android.internal.policy.DecorViewMultiWinStubImpl.<init>(DecorViewMultiWinStubImpl.java:19)
+06-27 19:45:02.903 17348 17348 W System.err: 	at com.android.internal.policy.DecorViewMultiWinStubImpl$Provider$SINGLETON.<clinit>(DecorViewMultiWinStubImpl$Provider.java:21)
+06-27 19:45:02.904 17348 17348 W System.err: 	at com.android.internal.policy.DecorViewMultiWinStubImpl$Provider.provideSingleton(DecorViewMultiWinStubImpl$Provider.java:10)
+06-27 19:45:02.904 17348 17348 W System.err: 	at com.android.internal.policy.DecorViewMultiWinStubImpl$Provider.provideSingleton(DecorViewMultiWinStubImpl$Provider.java:8)
+06-27 19:45:02.904 17348 17348 W System.err: 	at com.miui.base.MiuiStubRegistry.get(MiuiStubRegistry.java:129)
+06-27 19:45:02.904 17348 17348 W System.err: 	at com.miui.base.MiuiStubRegistry.get(MiuiStubRegistry.java:123)
+06-27 19:45:02.904 17348 17348 W System.err: 	at com.miui.base.MiuiStubUtil.getInstance(MiuiStubUtil.java:46)
+06-27 19:45:02.904 17348 17348 W System.err: 	at com.miui.base.MiuiStubUtil.getImpl(MiuiStubUtil.java:30)
+06-27 19:45:02.904 17348 17348 W System.err: 	at com.android.internal.policy.DecorViewMultiWinStub$SingletonHolder.<clinit>(DecorViewMultiWinStub.java:11)
+06-27 19:45:02.904 17348 17348 W System.err: 	at com.android.internal.policy.DecorViewMultiWinStub.newInstance(DecorViewMultiWinStub.java:16)
+06-27 19:45:02.904 17348 17348 W System.err: 	at com.android.internal.policy.DecorView.<init>(DecorView.java:335)
+06-27 19:45:02.904 17348 17348 W System.err: 	at com.android.internal.policy.PhoneWindow.generateDecor(PhoneWindow.java:2380)
+06-27 19:45:02.904 17348 17348 W System.err: 	at com.android.internal.policy.PhoneWindow.installDecor(PhoneWindow.java:2760)
+06-27 19:45:02.904 17348 17348 W System.err: 	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:487)
+06-27 19:45:02.905 17348 17348 W System.err: 	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:478)
+06-27 19:45:02.905 17348 17348 W System.err: 	at android.app.Activity.setContentView(Activity.java:3618)
+06-27 19:45:02.905 17348 17348 W System.err: 	at org.kivy.android.PythonActivity.showLoadingScreen(PythonActivity.java:439)
+06-27 19:45:02.905 17348 17348 W System.err: 	at org.kivy.android.PythonActivity.onCreate(PythonActivity.java:67)
+06-27 19:45:02.905 17348 17348 W System.err: 	at android.app.Activity.performCreate(Activity.java:8163)
+06-27 19:45:02.907 17348 17348 W System.err: 	at android.app.Activity.performCreate(Activity.java:8130)
+06-27 19:45:02.907 17348 17348 W System.err: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1330)
+06-27 19:45:02.908 17348 17348 W System.err: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3744)
+06-27 19:45:02.908 17348 17348 W System.err: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3938)
+06-27 19:45:02.908 17348 17348 W System.err: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:103)
+06-27 19:45:02.909 17348 17348 W System.err: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+06-27 19:45:02.909  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.909  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.909 17348 17348 W System.err: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+06-27 19:45:02.909 17348 17348 W System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2291)
+06-27 19:45:02.909 17348 17348 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 19:45:02.909 17348 17348 W System.err: 	at android.os.Looper.loopOnce(Looper.java:210)
+06-27 19:45:02.910 17348 17348 W System.err: 	at android.os.Looper.loop(Looper.java:299)
+06-27 19:45:02.910 17348 17348 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:8319)
+06-27 19:45:02.910 17348 17348 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 19:45:02.911 17348 17348 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:556)
+06-27 19:45:02.911 17348 17348 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1038)
+06-27 19:45:02.911 17348 17348 D IS_CTS_MODE: false
+06-27 19:45:02.911 17348 17348 D MULTI_WINDOW_SWITCH_ENABLED: false
+06-27 19:45:02.913 17348 17348 D IS_CTS_MODE: false
+06-27 19:45:02.913 17348 17348 D MULTI_WINDOW_SWITCH_ENABLED: false
+06-27 19:45:02.913 17348 17348 D IS_CTS_MODE: false
+06-27 19:45:02.913 17348 17348 D MULTI_WINDOW_SWITCH_ENABLED: false
+06-27 19:45:02.920 25950 25950 D Launcher_UnlockAnimationStateMachine: mResetIdleStateRunnable
+06-27 19:45:02.924  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.924  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.925 17348 17348 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-27 19:45:02.938 17348 17348 V SDL     : onStart()
+06-27 19:45:02.939 17348 17373 V PythonActivity: Ready to unpack
+06-27 19:45:02.941 17348 17373 V pythonutil: Unpacking private app
+06-27 19:45:02.942  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.942  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.943 17348 17373 V pythonutil: Data version is 6cab5f6252bbcb281d5a07ce976de40f1616031e
+06-27 19:45:02.944 17348 17348 V PythonActivity: onResume()
+06-27 19:45:02.944 17348 17348 V SDL     : onResume()
+06-27 19:45:02.953 17348 17373 V pythonutil: Unpacking /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64/libpybundle app
+06-27 19:45:02.953 17348 17373 V pythonutil: Data version is 6cab5f6252bbcb281d5a07ce976de40f1616031e
+06-27 19:45:02.959  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.959  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.971 25950 25950 D RecentsImpl: mActivityStateObserver org.kivy.android.PythonActivity
+06-27 19:45:02.971 25950 25950 W RecentsImpl: onResumed className=org.kivy.android.PythonActivity   mIsInAnotherPro=false   isKeyguardLocked=false
+06-27 19:45:02.975 17348 17348 V pythonutil: Checking pattern libsqlite3\.so against libSDL2.so
+06-27 19:45:02.976  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.976  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.976 17348 17348 V pythonutil: Checking pattern libsqlite3\.so against libSDL2_ttf.so
+06-27 19:45:02.976 17348 17348 V pythonutil: Checking pattern libsqlite3\.so against libSDL2_mixer.so
+06-27 19:45:02.976 17348 17348 V pythonutil: Checking pattern libsqlite3\.so against libssl1.1.so
+06-27 19:45:02.977 17348 17348 V pythonutil: Checking pattern libsqlite3\.so against libpybundle.so
+06-27 19:45:02.977 17348 17348 V pythonutil: Checking pattern libsqlite3\.so against libmain.so
+06-27 19:45:02.977 17348 17348 V pythonutil: Checking pattern libsqlite3\.so against libpython3.11.so
+06-27 19:45:02.977 17348 17348 V pythonutil: Checking pattern libsqlite3\.so against libcrypto1.1.so
+06-27 19:45:02.977 17348 17348 V pythonutil: Checking pattern libsqlite3\.so against libffi.so
+06-27 19:45:02.977 17348 17348 V pythonutil: Checking pattern libsqlite3\.so against libsqlite3.so
+06-27 19:45:02.977 17348 17348 V pythonutil: Pattern libsqlite3\.so matched file libsqlite3.so
+06-27 19:45:02.977 17348 17348 V pythonutil: Checking pattern libsqlite3\.so against libSDL2_image.so
+06-27 19:45:02.978 17348 17348 V pythonutil: Checking pattern libffi\.so against libSDL2.so
+06-27 19:45:02.978 17348 17348 V pythonutil: Checking pattern libffi\.so against libSDL2_ttf.so
+06-27 19:45:02.978 17348 17348 V pythonutil: Checking pattern libffi\.so against libSDL2_mixer.so
+06-27 19:45:02.979 17348 17348 V pythonutil: Checking pattern libffi\.so against libssl1.1.so
+06-27 19:45:02.979 17348 17348 V pythonutil: Checking pattern libffi\.so against libpybundle.so
+06-27 19:45:02.979 17348 17348 V pythonutil: Checking pattern libffi\.so against libmain.so
+06-27 19:45:02.979 17348 17348 V pythonutil: Checking pattern libffi\.so against libpython3.11.so
+06-27 19:45:02.979 17348 17348 V pythonutil: Checking pattern libffi\.so against libcrypto1.1.so
+06-27 19:45:02.980 17348 17348 V pythonutil: Checking pattern libffi\.so against libffi.so
+06-27 19:45:02.980 17348 17348 V pythonutil: Pattern libffi\.so matched file libffi.so
+06-27 19:45:02.980 17348 17348 V pythonutil: Checking pattern libffi\.so against libsqlite3.so
+06-27 19:45:02.980 17348 17348 V pythonutil: Checking pattern libffi\.so against libSDL2_image.so
+06-27 19:45:02.981 17348 17348 V pythonutil: Checking pattern libpng16\.so against libSDL2.so
+06-27 19:45:02.981 17348 17348 V pythonutil: Checking pattern libpng16\.so against libSDL2_ttf.so
+06-27 19:45:02.981 17348 17348 V pythonutil: Checking pattern libpng16\.so against libSDL2_mixer.so
+06-27 19:45:02.981 17348 17348 V pythonutil: Checking pattern libpng16\.so against libssl1.1.so
+06-27 19:45:02.981 17348 17348 V pythonutil: Checking pattern libpng16\.so against libpybundle.so
+06-27 19:45:02.982 17348 17348 V pythonutil: Checking pattern libpng16\.so against libmain.so
+06-27 19:45:02.982 17348 17348 V pythonutil: Checking pattern libpng16\.so against libpython3.11.so
+06-27 19:45:02.982 17348 17348 V pythonutil: Checking pattern libpng16\.so against libcrypto1.1.so
+06-27 19:45:02.983 17348 17348 V pythonutil: Checking pattern libpng16\.so against libffi.so
+06-27 19:45:02.983 17348 17348 V pythonutil: Checking pattern libpng16\.so against libsqlite3.so
+06-27 19:45:02.983 17348 17348 V pythonutil: Checking pattern libpng16\.so against libSDL2_image.so
+06-27 19:45:02.984 17348 17348 V pythonutil: Checking pattern libssl.*\.so against libSDL2.so
+06-27 19:45:02.984 17348 17348 V pythonutil: Checking pattern libssl.*\.so against libSDL2_ttf.so
+06-27 19:45:02.984 17348 17348 V pythonutil: Checking pattern libssl.*\.so against libSDL2_mixer.so
+06-27 19:45:02.984 17348 17348 V pythonutil: Checking pattern libssl.*\.so against libssl1.1.so
+06-27 19:45:02.984 17348 17348 V pythonutil: Pattern libssl.*\.so matched file libssl1.1.so
+06-27 19:45:02.984 17348 17348 V pythonutil: Checking pattern libssl.*\.so against libpybundle.so
+06-27 19:45:02.984  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:02.985 17348 17348 V pythonutil: Checking pattern libssl.*\.so against libmain.so
+06-27 19:45:02.985 17348 17348 V pythonutil: Checking pattern libssl.*\.so against libpython3.11.so
+06-27 19:45:02.985 17348 17348 V pythonutil: Checking pattern libssl.*\.so against libcrypto1.1.so
+06-27 19:45:02.985 17348 17348 V pythonutil: Checking pattern libssl.*\.so against libffi.so
+06-27 19:45:02.985 17348 17348 V pythonutil: Checking pattern libssl.*\.so against libsqlite3.so
+06-27 19:45:02.985 17348 17348 V pythonutil: Checking pattern libssl.*\.so against libSDL2_image.so
+06-27 19:45:02.985 17348 17348 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2.so
+06-27 19:45:02.985 17348 17348 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2_ttf.so
+06-27 19:45:02.986 17348 17348 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2_mixer.so
+06-27 19:45:02.986 17348 17348 V pythonutil: Checking pattern libcrypto.*\.so against libssl1.1.so
+06-27 19:45:02.986 17348 17348 V pythonutil: Checking pattern libcrypto.*\.so against libpybundle.so
+06-27 19:45:02.986 17348 17348 V pythonutil: Checking pattern libcrypto.*\.so against libmain.so
+06-27 19:45:02.986 17348 17348 V pythonutil: Checking pattern libcrypto.*\.so against libpython3.11.so
+06-27 19:45:02.986 17348 17348 V pythonutil: Checking pattern libcrypto.*\.so against libcrypto1.1.so
+06-27 19:45:02.986 17348 17348 V pythonutil: Pattern libcrypto.*\.so matched file libcrypto1.1.so
+06-27 19:45:02.986 17348 17348 V pythonutil: Checking pattern libcrypto.*\.so against libffi.so
+06-27 19:45:02.986 17348 17348 V pythonutil: Checking pattern libcrypto.*\.so against libsqlite3.so
+06-27 19:45:02.987 17348 17348 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2_image.so
+06-27 19:45:02.987 17348 17348 V pythonutil: Checking pattern libSDL2\.so against libSDL2.so
+06-27 19:45:02.987 17348 17348 V pythonutil: Pattern libSDL2\.so matched file libSDL2.so
+06-27 19:45:02.987 17348 17348 V pythonutil: Checking pattern libSDL2\.so against libSDL2_ttf.so
+06-27 19:45:02.987 17348 17348 V pythonutil: Checking pattern libSDL2\.so against libSDL2_mixer.so
+06-27 19:45:02.987 17348 17348 V pythonutil: Checking pattern libSDL2\.so against libssl1.1.so
+06-27 19:45:02.987 17348 17348 V pythonutil: Checking pattern libSDL2\.so against libpybundle.so
+06-27 19:45:02.987 17348 17348 V pythonutil: Checking pattern libSDL2\.so against libmain.so
+06-27 19:45:02.987 17348 17348 V pythonutil: Checking pattern libSDL2\.so against libpython3.11.so
+06-27 19:45:02.987 17348 17348 V pythonutil: Checking pattern libSDL2\.so against libcrypto1.1.so
+06-27 19:45:02.987 17348 17348 V pythonutil: Checking pattern libSDL2\.so against libffi.so
+06-27 19:45:02.988 17348 17348 V pythonutil: Checking pattern libSDL2\.so against libsqlite3.so
+06-27 19:45:02.988 17348 17348 V pythonutil: Checking pattern libSDL2\.so against libSDL2_image.so
+06-27 19:45:02.988 17348 17348 V pythonutil: Checking pattern libSDL2_image\.so against libSDL2.so
+06-27 19:45:02.988 17348 17348 V pythonutil: Checking pattern libSDL2_image\.so against libSDL2_ttf.so
+06-27 19:45:02.988 17348 17348 V pythonutil: Checking pattern libSDL2_image\.so against libSDL2_mixer.so
+06-27 19:45:02.988 17348 17348 V pythonutil: Checking pattern libSDL2_image\.so against libssl1.1.so
+06-27 19:45:02.989 17348 17348 V pythonutil: Checking pattern libSDL2_image\.so against libpybundle.so
+06-27 19:45:02.989 17348 17348 V pythonutil: Checking pattern libSDL2_image\.so against libmain.so
+06-27 19:45:02.989 17348 17348 V pythonutil: Checking pattern libSDL2_image\.so against libpython3.11.so
+06-27 19:45:02.989 17348 17348 V pythonutil: Checking pattern libSDL2_image\.so against libcrypto1.1.so
+06-27 19:45:02.989 17348 17348 V pythonutil: Checking pattern libSDL2_image\.so against libffi.so
+06-27 19:45:02.989 17348 17348 V pythonutil: Checking pattern libSDL2_image\.so against libsqlite3.so
+06-27 19:45:02.990 17348 17348 V pythonutil: Checking pattern libSDL2_image\.so against libSDL2_image.so
+06-27 19:45:02.990 17348 17348 V pythonutil: Pattern libSDL2_image\.so matched file libSDL2_image.so
+06-27 19:45:02.991 17348 17348 V pythonutil: Checking pattern libSDL2_mixer\.so against libSDL2.so
+06-27 19:45:02.991 17348 17348 V pythonutil: Checking pattern libSDL2_mixer\.so against libSDL2_ttf.so
+06-27 19:45:02.991 17348 17348 V pythonutil: Checking pattern libSDL2_mixer\.so against libSDL2_mixer.so
+06-27 19:45:02.991  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:02.992 17348 17348 V pythonutil: Pattern libSDL2_mixer\.so matched file libSDL2_mixer.so
+06-27 19:45:02.991  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:02.992 17348 17348 V pythonutil: Checking pattern libSDL2_mixer\.so against libssl1.1.so
+06-27 19:45:02.992 17348 17348 V pythonutil: Checking pattern libSDL2_mixer\.so against libpybundle.so
+06-27 19:45:02.992 17348 17348 V pythonutil: Checking pattern libSDL2_mixer\.so against libmain.so
+06-27 19:45:02.992 17348 17348 V pythonutil: Checking pattern libSDL2_mixer\.so against libpython3.11.so
+06-27 19:45:02.992 17348 17348 V pythonutil: Checking pattern libSDL2_mixer\.so against libcrypto1.1.so
+06-27 19:45:02.993 17348 17348 V pythonutil: Checking pattern libSDL2_mixer\.so against libffi.so
+06-27 19:45:02.993 17348 17348 V pythonutil: Checking pattern libSDL2_mixer\.so against libsqlite3.so
+06-27 19:45:02.993 17348 17348 V pythonutil: Checking pattern libSDL2_mixer\.so against libSDL2_image.so
+06-27 19:45:02.994 17348 17348 V pythonutil: Checking pattern libSDL2_ttf\.so against libSDL2.so
+06-27 19:45:02.994 17348 17348 V pythonutil: Checking pattern libSDL2_ttf\.so against libSDL2_ttf.so
+06-27 19:45:02.994 17348 17348 V pythonutil: Pattern libSDL2_ttf\.so matched file libSDL2_ttf.so
+06-27 19:45:02.995 17348 17348 V pythonutil: Checking pattern libSDL2_ttf\.so against libSDL2_mixer.so
+06-27 19:45:02.995 17348 17348 V pythonutil: Checking pattern libSDL2_ttf\.so against libssl1.1.so
+06-27 19:45:02.995 17348 17348 V pythonutil: Checking pattern libSDL2_ttf\.so against libpybundle.so
+06-27 19:45:02.995 17348 17348 V pythonutil: Checking pattern libSDL2_ttf\.so against libmain.so
+06-27 19:45:02.995 17348 17348 V pythonutil: Checking pattern libSDL2_ttf\.so against libpython3.11.so
+06-27 19:45:02.996 17348 17348 V pythonutil: Checking pattern libSDL2_ttf\.so against libcrypto1.1.so
+06-27 19:45:02.996 17348 17348 V pythonutil: Checking pattern libSDL2_ttf\.so against libffi.so
+06-27 19:45:02.996 17348 17348 V pythonutil: Checking pattern libSDL2_ttf\.so against libsqlite3.so
+06-27 19:45:02.996 17348 17348 V pythonutil: Checking pattern libSDL2_ttf\.so against libSDL2_image.so
+06-27 19:45:02.996 17348 17348 V pythonutil: Loading library: sqlite3
+06-27 19:45:03.002 17348 17348 D nativeloader: Load /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64/libsqlite3.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): ok
+06-27 19:45:03.002 17348 17348 V pythonutil: Loading library: ffi
+06-27 19:45:03.007  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:03.007 17348 17348 D nativeloader: Load /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64/libffi.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): ok
+06-27 19:45:03.008  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:03.008 17348 17348 V pythonutil: Loading library: ssl1.1
+06-27 19:45:03.018 17348 17348 D nativeloader: Load /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64/libssl1.1.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): ok
+06-27 19:45:03.018 17348 17348 V pythonutil: Loading library: crypto1.1
+06-27 19:45:03.019 17348 17348 D nativeloader: Load /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64/libcrypto1.1.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): ok
+06-27 19:45:03.019 17348 17348 V pythonutil: Loading library: SDL2
+06-27 19:45:03.025  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:03.025  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:03.029 17348 17348 D nativeloader: Load /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64/libSDL2.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): ok
+06-27 19:45:03.030 17348 17348 V pythonutil: Loading library: SDL2_image
+06-27 19:45:03.035 17348 17348 D nativeloader: Load /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64/libSDL2_image.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): ok
+06-27 19:45:03.035 17348 17348 V pythonutil: Loading library: SDL2_mixer
+06-27 19:45:03.039 17348 17348 D nativeloader: Load /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64/libSDL2_mixer.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): ok
+06-27 19:45:03.040 17348 17348 V pythonutil: Loading library: SDL2_ttf
+06-27 19:45:03.042  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:03.042  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:03.051 17348 17348 D nativeloader: Load /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64/libSDL2_ttf.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): ok
+06-27 19:45:03.051 17348 17348 V pythonutil: Loading library: python3.5m
+06-27 19:45:03.059  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:03.059  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:03.066 17348 17348 D nativeloader: Load libpython3.5m.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): dlopen failed: library "libpython3.5m.so" not found
+06-27 19:45:03.066 17348 17348 V pythonutil: Library loading error: dlopen failed: library "libpython3.5m.so" not found
+06-27 19:45:03.066 17348 17348 V pythonutil: Loading library: python3.6m
+06-27 19:45:03.069 17348 17348 D nativeloader: Load libpython3.6m.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): dlopen failed: library "libpython3.6m.so" not found
+06-27 19:45:03.069 17348 17348 V pythonutil: Library loading error: dlopen failed: library "libpython3.6m.so" not found
+06-27 19:45:03.069 17348 17348 V pythonutil: Loading library: python3.7m
+06-27 19:45:03.071 17348 17348 D nativeloader: Load libpython3.7m.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): dlopen failed: library "libpython3.7m.so" not found
+06-27 19:45:03.072 17348 17348 V pythonutil: Library loading error: dlopen failed: library "libpython3.7m.so" not found
+06-27 19:45:03.072 17348 17348 V pythonutil: Loading library: python3.8
+06-27 19:45:03.074 17348 17348 D nativeloader: Load libpython3.8.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): dlopen failed: library "libpython3.8.so" not found
+06-27 19:45:03.075 17348 17348 V pythonutil: Library loading error: dlopen failed: library "libpython3.8.so" not found
+06-27 19:45:03.075 17348 17348 V pythonutil: Loading library: python3.9
+06-27 19:45:03.077 17348 17348 D nativeloader: Load libpython3.9.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): dlopen failed: library "libpython3.9.so" not found
+06-27 19:45:03.077 25950 25950 E LauncherAnimationRunner: finish: mFinishRunnable.run
+06-27 19:45:03.077 17348 17348 V pythonutil: Library loading error: dlopen failed: library "libpython3.9.so" not found
+06-27 19:45:03.078 17348 17348 V pythonutil: Loading library: python3.10
+06-27 19:45:03.081 17348 17348 D nativeloader: Load libpython3.10.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): dlopen failed: library "libpython3.10.so" not found
+06-27 19:45:03.081 17348 17348 V pythonutil: Library loading error: dlopen failed: library "libpython3.10.so" not found
+06-27 19:45:03.082 17348 17348 V pythonutil: Loading library: python3.11
+06-27 19:45:03.095  1627  1662 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:45:03.099 17348 17348 D nativeloader: Load /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64/libpython3.11.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): ok
+06-27 19:45:03.099 17348 17348 V pythonutil: Loading library: main
+06-27 19:45:03.102 17348 17348 D nativeloader: Load /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64/libmain.so using ns clns-4 from class loader (caller=/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.apk!classes5.dex): ok
+06-27 19:45:03.102 17348 17348 V pythonutil: Loaded everything!
+06-27 19:45:03.105 17348 17348 V SDL     : nativeSetupJNI()
+06-27 19:45:03.108 17348 17348 V SDL     : AUDIO nativeSetupJNI()
+06-27 19:45:03.109 17348 17348 V SDL     : CONTROLLER nativeSetupJNI()
+06-27 19:45:03.146  1627  1662 W ServiceManager: Permission failure: android.permission.HIGH_SAMPLING_RATE_SENSORS from uid=10869 pid=17348
+06-27 19:45:03.155 17348 17348 V PythonActivity: Setting env vars for start.c and Python to use
+06-27 19:45:03.155 17348 17348 V PythonActivity: Access to our meta-data...
+06-27 19:45:03.156 17348 17348 I PythonActivity: Surface will NOT be transparent
+06-27 19:45:03.176 17348 17348 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-27 19:45:03.176 17348 17348 D DecorView[]: updateDecorCaptionStatus displayWindowDecor is false
+06-27 19:45:03.181  1627  1662 D WindowManager: Input focus has changed to Window{ef0ad60 u0 org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity} display=0 updateInputWindows = true
+06-27 19:45:03.181  1627  1662 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:45:03.182  1627  1818 D CompatibilityChangeReporter: Compat change id reported: 158002302; UID 10869; state: ENABLED
+06-27 19:45:03.185  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:03.188 17348 17370 I AdrenoGLES-0: QUALCOMM build                   : 820d4a4028, I5580630f49
+06-27 19:45:03.188 17348 17370 I AdrenoGLES-0: Build Date                       : 11/04/21
+06-27 19:45:03.188 17348 17370 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.16
+06-27 19:45:03.188 17348 17370 I AdrenoGLES-0: Local Branch                     : 
+06-27 19:45:03.188 17348 17370 I AdrenoGLES-0: Remote Branch                    : 
+06-27 19:45:03.188 17348 17370 I AdrenoGLES-0: Remote Branch                    : 
+06-27 19:45:03.188 17348 17370 I AdrenoGLES-0: Reconstruct Branch               : 
+06-27 19:45:03.188 17348 17370 I AdrenoGLES-0: Build Config                     : S P 10.0.7 AArch64
+06-27 19:45:03.188 17348 17370 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+06-27 19:45:03.194 17348 17370 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+06-27 19:45:03.195 17348 17348 D SurfaceView: UPDATE null, mIsCastMode = false
+06-27 19:45:03.206 17348 17348 V SDL     : surfaceCreated()
+06-27 19:45:03.206 17348 17348 V SDL     : surfaceChanged()
+06-27 19:45:03.207  1026  1145 I SDM     : HWCDisplay::GetColorModeCount: Supported color mode count = 1
+06-27 19:45:03.207  1026  1145 I SDM     : HWCDisplay::GetColorModes: Color mode = 0 is supported
+06-27 19:45:03.207 17348 17348 V SDL     : Window size: 1080x2168
+06-27 19:45:03.207 17348 17348 V SDL     : Device size: 1080x2400
+06-27 19:45:03.209  1627  1662 W ServiceManager: Permission failure: android.permission.HIGH_SAMPLING_RATE_SENSORS from uid=10869 pid=17348
+06-27 19:45:03.210  1627  1662 W ServiceManager: Permission failure: android.permission.HIGH_SAMPLING_RATE_SENSORS from uid=10869 pid=17348
+06-27 19:45:03.210  1036  1036 I sensors-hal: batch:242, android.sensor.accelerometer/11, period=10000000, max_latency=20000000
+06-27 19:45:03.210  1036  1036 I sensors-hal: set_config:63, sample_period_ns is adjusted to 10000000 based on min/max delay_ns
+06-27 19:45:03.211 17348 17370 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+06-27 19:45:03.211  1036  1036 I sensors-hal: batch:251, android.sensor.accelerometer/11, period=10000000, max_latency=20000000 request completed
+06-27 19:45:03.212  1036  1036 I sensors-hal: flush:271, android.sensor.accelerometer/11
+06-27 19:45:03.212  1036  1036 I sensors-hal: flush:277, android.sensor.accelerometer/11 completed
+06-27 19:45:03.214 17348 17377 V SDL     : Running main function SDL_main from library /data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/lib/arm64/libmain.so
+06-27 19:45:03.214 17348 17377 V PythonActivity: appConfirmedActive() -> preparing loading screen removal
+06-27 19:45:03.214 17348 17377 V SDL     : nativeRunMain()
+06-27 19:45:03.215 17348 17377 I python  : Initializing Python for Android
+06-27 19:45:03.215 17348 17377 I python  : Setting additional env vars from p4a_env_vars.txt
+06-27 19:45:03.216 17348 17377 I python  : Changing directory to the one provided by ANDROID_ARGUMENT
+06-27 19:45:03.216 17348 17377 I python  : /data/user/0/org.alexandreareias.edmundoapp/files/app
+06-27 19:45:03.219 17348 17377 I python  : Preparing to initialize python
+06-27 19:45:03.221 17348 17377 I python  : _python_bundle dir exists
+06-27 19:45:03.221 17348 17377 I python  : calculated paths to be...
+06-27 19:45:03.221 17348 17377 I python  : /data/user/0/org.alexandreareias.edmundoapp/files/app/_python_bundle/stdlib.zip:/data/user/0/org.alexandreareias.edmundoapp/files/app/_python_bundle/modules
+06-27 19:45:03.221 17348 17377 I python  : set wchar paths...
+06-27 19:45:03.221  1036 10934 I sensors-hal: ssc_conn_resp_cb:663, resp_value = 0
+06-27 19:45:03.225  1036 10934 I sensors-hal: ssc_conn_resp_cb:663, resp_value = 0
+06-27 19:45:03.248 17348 17370 E eias.edmundoap: open libmigui.so failed! dlopen - dlopen failed: library "libmigui.so" not found
+06-27 19:45:03.254  1627  1662 D WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{ef0ad60 u0 org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity} in Surface(name=org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity)/@0x7ba2e90
+06-27 19:45:03.261  1627  1814 W ziparchive: Unable to open '/data/app/~~2_jz4MBK9pV7Wj6HKv37rQ==/org.alexandreareias.edmundoapp-rWh5LAayH-LrkYQPrIqtRg==/base.dm': No such file or directory
+06-27 19:45:03.261  1053  3925 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+06-27 19:45:03.265  1627  1662 W InputManager-JNI: Input channel object '2f8e2df Splash Screen org.alexandreareias.edmundoapp (client)' was disposed without first being removed with the input manager!
+06-27 19:45:03.269  1053  3925 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+06-27 19:45:03.270  1627  1814 I ActivityTaskManager: Displayed org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity: +771ms
+06-27 19:45:03.270 17348 17348 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+06-27 19:45:03.270 17348 17348 D DecorView[]: updateDecorCaptionStatus displayWindowDecor is false
+06-27 19:45:03.273 25950 25950 D Launcher.Lifecycle: onStop:UserHandle{0},ce92670,false
+06-27 19:45:03.273 25950 25950 D Launcher_UnlockAnimationStateMachine: onStop = IDLE
+06-27 19:45:03.276  1627  5857 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:45:03.283  1627  1662 W ProcessStats: Tracking association SourceState{7754fd9 com.miui.home/10092 BTopFgs #324656} whose proc state 2 is better than process ProcessState{6c8e892 com.miui.securitycenter.remote/1000 pkg=com.miui.securitycenter} proc state 3 (0 skipped)
+06-27 19:45:03.285  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 99496, uidState = 5
+06-27 19:45:03.285  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 10192, uidState = 5
+06-27 19:45:03.285  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 10188, uidState = 5
+06-27 19:45:03.286  7820  8204 I BtGatt.ScanManager: msg.what = 6
+06-27 19:45:03.287 26283 26283 I cpwx    : onStop
+06-27 19:45:03.289  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 10111, uidState = 4
+06-27 19:45:03.289  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 10092, uidState = 5
+06-27 19:45:03.296  1627  1815 D Aurogon :  uid = 10092 switch to BG
+06-27 19:45:03.296 25530 27040 D PMonitor:  onForegroundActivitiesChanged:pid = 25950,activity-uid=10092,foregroundActivities=false
+06-27 19:45:03.297 17348 17348 D SurfaceView: UPDATE Surface(name=SurfaceView[org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity])/@0x10c5eb1, mIsProjectionMode = false
+06-27 19:45:03.304 17348 17348 V SDL     : onWindowFocusChanged(): true
+06-27 19:45:03.304 17348 17348 D DecorView[]: onWindowFocusChanged hasWindowFocus true
+06-27 19:45:03.305 17348 17377 I python  : Initialized python
+06-27 19:45:03.305 17348 17377 I python  : AND: Init threads
+06-27 19:45:03.306 17348 17377 I python  : testing python print redirection
+06-27 19:45:03.310 17348 17377 I python  : Android path ['.', '/data/user/0/org.alexandreareias.edmundoapp/files/app/_python_bundle/stdlib.zip', '/data/user/0/org.alexandreareias.edmundoapp/files/app/_python_bundle/modules', '/data/user/0/org.alexandreareias.edmundoapp/files/app/_python_bundle/site-packages']
+06-27 19:45:03.310 17348 17377 I python  : os.environ is environ({'PATH': '/product/bin:/apex/com.android.runtime/bin:/apex/com.android.art/bin:/system_ext/bin:/system/bin:/system/xbin:/odm/bin:/vendor/bin:/vendor/xbin', 'ANDROID_BOOTLOGO': '1', 'ANDROID_ROOT': '/system', 'ANDROID_ASSETS': '/system/app', 'ANDROID_DATA': '/data', 'ANDROID_STORAGE': '/storage', 'ANDROID_ART_ROOT': '/apex/com.android.art', 'ANDROID_I18N_ROOT': '/apex/com.android.i18n', 'ANDROID_TZDATA_ROOT': '/apex/com.android.tzdata', 'EXTERNAL_STORAGE': '/sdcard', 'ASEC_MOUNTPOINT': '/mnt/asec', 'DOWNLOAD_CACHE': '/data/cache', 'BOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/system/framework/tcmiface.jar:/system/framework/telephony-ext.jar:/system/framework/qcom.fmradio.jar:/system/framework/QPerformance.jar:/system/framework/UxPerformance.jar:/system/framework/WfdCommon.jar:/system/framework/miui-framework.jar:/system/framework/miui-telephony-common.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.mediaprovider/javalib/framework-pdf.jar:/apex/com.android.mediaprovider/javalib/framework-photopicker.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.wifi/javalib/framework-wifi.jar', 'DEX2OATBOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/system/framework/tcmiface.jar:/system/framework/telephony-ext.jar:/system/framework/qcom.fmradio.jar:/system/framework/QPerformance.jar:/system/framework/UxPerformance.jar:/system/framework/WfdCommon.jar:/system/framework/miui-framework.jar:/system/framework/miui-telephony-common.jar', 'SYSTEMSERVERCLASSPATH': '/system/framework/com.android.location.provider.jar:/system/framework/services.jar:/system/framework/ethernet-service.jar:/system/framework/miui.services.jar:/system/framework/miui-services.jar:/system/framework/miui.car.server.jar:/apex/com.android.appsearch/javalib/service-appsearch.jar:/apex/com.android.art/javalib/service-art.jar:/apex/com.android.media/javalib/service-media-s.jar:/apex/com.android.permission/javalib/service-permission.jar', 'STANDALONE_SYSTEMSERVER_JARS': '/apex/com.android.os.statsd/javalib/service-statsd.jar:/apex/com.android.scheduling/javalib/service-scheduling.jar:/apex/com.android.tethering/javalib/service-connectivity.jar', 'ANDROID_SOCKET_zygote': '18', 'ANDROID_SOCKET_usap_pool_primary': '22', 'ANDROID_ENTRYPOINT': 'main.pyc', 'ANDROID_ARGUMENT': '/data/user/0/org.alexandreareias.edmundoapp/files/app', 'ANDROID_APP_PATH': '/data/user/0/org.alexandreareias.edmundoapp/files/app', 'ANDROID_PRIVATE': '/data/user/0/org.alexandreareias.edmundoapp/files', 'ANDROID_UNPACK': '/data/us
+06-27 19:45:03.310  1627  5982 W ActivityTaskManager: Request to remove task ignored for non-existent task 3387
+06-27 19:45:03.312 17348 17377 I python  : Android kivy bootstrap done. __name__ is __main__
+06-27 19:45:03.312 17348 17377 I python  : AND: Ran string
+06-27 19:45:03.312 17348 17377 I python  : Run user program, change dir and execute entrypoint
+06-27 19:45:03.313 25875 25875 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984 
+06-27 19:45:03.314 25875 25875 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+06-27 19:45:03.315 25875 25875 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=org.alexandreareias.edmundoapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+06-27 19:45:03.316 25875 25875 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+06-27 19:45:03.385  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:03.461  1627  1817 D TaskSnapshot_Helper: SYS is normal.
+06-27 19:45:03.461  1627  1817 W TaskSnapshot_CInjector: couldPersist()... false.
+06-27 19:45:03.524  1053  3932 E ANDR-PERF-LM: VmRssMeter:: start() 447: Could not find pid, can not collect vmrss data
+06-27 19:45:03.524  1053  3932 E ANDR-PERF-LM: AdaptiveLaunch: writeToDataBase() 64: Meter aborted or could not get meter data for this run
+06-27 19:45:03.527  1053  3931 E ANDR-PERF-LM: VmRssMeter:: start() 447: Could not find pid, can not collect vmrss data
+06-27 19:45:03.534 17348 17377 I python  : [INFO   ] [Logger      ] Record log in /data/user/0/org.alexandreareias.edmundoapp/files/app/.kivy/logs/kivy_25-06-27_1.txt
+06-27 19:45:03.534 17348 17377 I python  : [INFO   ] [Kivy        ] v2.3.1
+06-27 19:45:03.535 17348 17377 I python  : [INFO   ] [Kivy        ] Installed at "/data/user/0/org.alexandreareias.edmundoapp/files/app/_python_bundle/site-packages/kivy/__init__.pyc"
+06-27 19:45:03.535 17348 17377 I python  : [INFO   ] [Python      ] v3.11.5 (main, Jun 27 2025, 22:10:37) [Clang 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0
+06-27 19:45:03.535 17348 17377 I python  : [INFO   ] [Python      ] Interpreter at ""
+06-27 19:45:03.536 17348 17377 I python  : [INFO   ] [Logger      ] Purge log fired. Processing...
+06-27 19:45:03.536 17348 17377 I python  : [INFO   ] [Logger      ] Purge finished!
+06-27 19:45:03.575 17259 17278 I agai    : (REDACTED) Assistant special experience changed to %s.
+06-27 19:45:03.585  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:03.785  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:03.986  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:04.080 17348 17348 W SDLThread: type=1400 audit(0.0:103721): avc: granted { execute } for path="/data/data/org.alexandreareias.edmundoapp/files/app/_python_bundle/modules/_socket.cpython-311.so" dev="sda18" ino=2792086 scontext=u:r:untrusted_app:s0:c101,c259,c512,c768 tcontext=u:object_r:app_data_file:s0:c101,c259,c512,c768 tclass=file app=org.alexandreareias.edmundoapp
+06-27 19:45:04.080 17348 17348 W SDLThread: type=1400 audit(0.0:103722): avc: granted { execute } for path="/data/data/org.alexandreareias.edmundoapp/files/app/_python_bundle/modules/array.cpython-311.so" dev="sda18" ino=2560772 scontext=u:r:untrusted_app:s0:c101,c259,c512,c768 tcontext=u:object_r:app_data_file:s0:c101,c259,c512,c768 tclass=file app=org.alexandreareias.edmundoapp
+06-27 19:45:04.090 17348 17348 W SDLThread: type=1400 audit(0.0:103723): avc: granted { execute } for path="/data/data/org.alexandreareias.edmundoapp/files/app/_python_bundle/modules/_ssl.cpython-311.so" dev="sda18" ino=2654047 scontext=u:r:untrusted_app:s0:c101,c259,c512,c768 tcontext=u:object_r:app_data_file:s0:c101,c259,c512,c768 tclass=file app=org.alexandreareias.edmundoapp
+06-27 19:45:04.100 17348 17348 W SDLThread: type=1400 audit(0.0:103724): avc: granted { execute } for path="/data/data/org.alexandreareias.edmundoapp/files/app/_python_bundle/modules/binascii.cpython-311.so" dev="sda18" ino=2501055 scontext=u:r:untrusted_app:s0:c101,c259,c512,c768 tcontext=u:object_r:app_data_file:s0:c101,c259,c512,c768 tclass=file app=org.alexandreareias.edmundoapp
+06-27 19:45:04.110 17348 17348 W SDLThread: type=1400 audit(0.0:103725): avc: granted { execute } for path="/data/data/org.alexandreareias.edmundoapp/files/app/_python_bundle/modules/_contextvars.cpython-311.so" dev="sda18" ino=2907370 scontext=u:r:untrusted_app:s0:c101,c259,c512,c768 tcontext=u:object_r:app_data_file:s0:c101,c259,c512,c768 tclass=file app=org.alexandreareias.edmundoapp
+06-27 19:45:04.167 17348 17377 I python  : [INFO   ] [Factory     ] 195 symbols loaded
+06-27 19:45:04.186  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:04.360 17348 17377 I python  :  Traceback (most recent call last):
+06-27 19:45:04.360 17348 17377 I python  :    File "/home/runner/work/livro-ocorrencias-app/livro-ocorrencias-app/.buildozer/android/app/main.py", line 2, in <module>
+06-27 19:45:04.360 17348 17377 I python  :    File "/home/runner/work/livro-ocorrencias-app/livro-ocorrencias-app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/edmundoapp/arm64-v8a/kivy/app.py", line 425, in <module>
+06-27 19:45:04.360 17348 17377 I python  :    File "/home/runner/work/livro-ocorrencias-app/livro-ocorrencias-app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/edmundoapp/arm64-v8a/kivy/uix/widget.py", line 249, in <module>
+06-27 19:45:04.361 17348 17377 I python  :    File "/home/runner/work/livro-ocorrencias-app/livro-ocorrencias-app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/edmundoapp/arm64-v8a/kivy/graphics/__init__.py", line 89, in <module>
+06-27 19:45:04.361 17348 17377 I python  :    File "kivy/graphics/instructions.pyx", line 1, in init kivy.graphics.instructions
+06-27 19:45:04.361 17348 17377 I python  :    File "kivy/graphics/vbo.pyx", line 1, in init kivy.graphics.vbo
+06-27 19:45:04.361 17348 17377 I python  :    File "kivy/graphics/compiler.pyx", line 1, in init kivy.graphics.compiler
+06-27 19:45:04.361 17348 17377 I python  :    File "kivy/graphics/shader.pyx", line 1, in init kivy.graphics.shader
+06-27 19:45:04.362 17348 17377 I python  :    File "kivy/graphics/texture.pyx", line 1, in init kivy.graphics.texture
+06-27 19:45:04.362 17348 17377 I python  :    File "kivy/graphics/context_instructions.pyx", line 30, in init kivy.graphics.context_instructions
+06-27 19:45:04.362 17348 17377 I python  :    File "/home/runner/work/livro-ocorrencias-app/livro-ocorrencias-app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/edmundoapp/arm64-v8a/kivy/core/image/__init__.py", line 65, in <module>
+06-27 19:45:04.362 17348 17377 I python  :  ModuleNotFoundError: No module named 'filetype'
+06-27 19:45:04.362 17348 17377 I python  : Python for android ended.
+06-27 19:45:04.386  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:04.492 17348 17377 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+06-27 19:45:04.508  4870  4870 I adbd    : Remote process closed the socket (on MSG_PEEK)
+06-27 19:45:04.526  1627  5982 I WindowManager: WIN DEATH: Window{ef0ad60 u0 org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity}
+06-27 19:45:04.526  1627  5982 W InputManager-JNI: Input channel object 'ef0ad60 org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity (client)' was disposed without first being removed with the input manager!
+06-27 19:45:04.529  1627  5982 D WindowManager: Input focus has changed to null display=0 updateInputWindows = true
+06-27 19:45:04.530  1627  5922 I ActivityManager: Process org.alexandreareias.edmundoapp (pid 17348) has died: fg  TOP 
+06-27 19:45:04.530  1036  1036 I sensors-hal: batch:242, android.sensor.accelerometer/11, period=10000000, max_latency=5000000000
+06-27 19:45:04.530  1036  1036 I sensors-hal: set_config:63, sample_period_ns is adjusted to 10000000 based on min/max delay_ns
+06-27 19:45:04.531  1036  1036 I sensors-hal: batch:251, android.sensor.accelerometer/11, period=10000000, max_latency=5000000000 request completed
+06-27 19:45:04.531  1627  1920 I libprocessgroup: Successfully killed process cgroup uid 10869 pid 17348 in 0ms
+06-27 19:45:04.533  1627  5922 D ActivityManagerServiceImpl: Service controller is not enabled.
+06-27 19:45:04.533  1627  5922 D ProcessRecordInjector: Finishing reporting clean up app record.
+06-27 19:45:04.534  1627  5922 W ActivityTaskManager: Force removing ActivityRecord{d73503d u0 org.alexandreareias.edmundoapp/org.kivy.android.PythonActivity t3388}: app died, no saved state
+06-27 19:45:04.535 16989 17329 I .xiaomi.mipick: oneway function results for code 3 on binder at 0xb4000071fb8f1ba0 will be dropped but finished with status UNKNOWN_TRANSACTION
+06-27 19:45:04.535 25530 27040 I com.xiaomi.xms: oneway function results for code 3 on binder at 0xb40000725dfd6d00 will be dropped but finished with status UNKNOWN_TRANSACTION
+06-27 19:45:04.536  1627  2409 I MiuiNetworkPolicy: removeUidState uid = 10869
+06-27 19:45:04.537  1036 10934 I sensors-hal: ssc_conn_resp_cb:663, resp_value = 0
+06-27 19:45:04.538   884   884 I Zygote  : Process 17348 exited cleanly (255)
+06-27 19:45:04.543  1627  5922 W ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=3388 attached=false
+06-27 19:45:04.543  1627  5922 W ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=3388 attached=false
+06-27 19:45:04.544  1131  1131 E BpTransactionCompletedListener: Failed to transact (-32)
+06-27 19:45:04.546 25950 25964 D AppObserver: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10092, mForegroundPid=25950, mLastForegroundPackageName='org.alexandreareias.edmundoapp', mLastForegroundUid=10869, mLastForegroundPid=17348, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10092, mFlags=0}
+06-27 19:45:04.546  8270  8303 I GST     : forePkg: com.miui.home, preForePkg: org.alexandreareias.edmundoapp
+06-27 19:45:04.546 25792 31695 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10092, mForegroundPid=25950, mLastForegroundPackageName='org.alexandreareias.edmundoapp', mLastForegroundUid=10869, mLastForegroundPid=17348, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10092, mFlags=0}
+06-27 19:45:04.546 26331 26342 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10092, mForegroundPid=25950, mLastForegroundPackageName='org.alexandreareias.edmundoapp', mLastForegroundUid=10869, mLastForegroundPid=17348, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10092, mFlags=0}
+06-27 19:45:04.546  8221  9648 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10092, mForegroundPid=25950, mLastForegroundPackageName='org.alexandreareias.edmundoapp', mLastForegroundUid=10869, mLastForegroundPid=17348, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10092, mFlags=0}
+06-27 19:45:04.548  8221  8569 D LS-ForegroundStatusManager: handleMessage ForegroundInfoChanged. pkg = com.miui.home, uid = 10092, mCurrentForegroundUid = 10869
+06-27 19:45:04.548 26331 26342 I GameBoosterService: onForegroundInfoChanged: Cur=com.miui.home	 last=org.alexandreareias.edmundoapp
+06-27 19:45:04.548  8221  8589 D ThermalIECHandler: IECAll48Allowed: false; IECMonitorAllowed: false; IECTestState: false
+06-27 19:45:04.548  8221  8419 I ThermalInfoCollector: collectForgroundAppsInfo: org.alexandreareias.edmundoapp
+06-27 19:45:04.548 26331 26342 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10092, mForegroundPid=25950, mLastForegroundPackageName='org.alexandreareias.edmundoapp', mLastForegroundUid=10869, mLastForegroundPid=17348, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10092, mFlags=0}
+06-27 19:45:04.548  8221  8569 D LS-ForegroundStatusManager: onForegroundChanged mCurrentForegroundUid = 10869, new uid = 10092
+06-27 19:45:04.549  1627  5969 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:45:04.550 25950 25950 D Launcher.Lifecycle: onStart:UserHandle{0},ce92670,false
+06-27 19:45:04.550  1627  1815 D Aurogon :  uid = 10092 switch to FG
+06-27 19:45:04.550 25530 27040 D PMonitor:  onForegroundActivitiesChanged:pid = 25950,activity-uid=10092,foregroundActivities=true
+06-27 19:45:04.550 26331 26342 I VideoBoxUtils: isSupportVideoBox: false
+06-27 19:45:04.550 26331 26342 I VideoToolBoxService: vtb is closed!!!
+06-27 19:45:04.552  1627  1817 W ActivityManager: setHasOverlayUi called on unknown pid: 17348
+06-27 19:45:04.553  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 99496, uidState = 3
+06-27 19:45:04.553  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 10192, uidState = 3
+06-27 19:45:04.553  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 10111, uidState = 3
+06-27 19:45:04.553  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 10092, uidState = 2
+06-27 19:45:04.556  7820  8204 I BtGatt.ScanManager: msg.what = 6
+06-27 19:45:04.556  2919  2919 D NotifBadge: recevie broadbcast ACTION_APPLICATION_MESSAGE_QUERY, requestFirstTime=false
+06-27 19:45:04.560 26283 26283 I cpwx    : onStart
+06-27 19:45:04.561 25950 25950 D Launcher.Lifecycle: onResume:UserHandle{0},ce92670,false
+06-27 19:45:04.561 25950 25950 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+06-27 19:45:04.561 25950 26229 D MiBridge: requestCpuHighFreq---- uid: 10092 level: 1 timeoutms:500
+06-27 19:45:04.561  1389  1401 W MiuiBooster: "MiuiBoosterService requestCpuHighFreq: 10092, 1, 500"
+06-27 19:45:04.561  1389  1401 W MiuiBooster: "requestCpuHighFreq,final level:1,final timeoutms:500"
+06-27 19:45:04.561  1389  1401 W MiuiBooster: "perf_hint_hc start"
+06-27 19:45:04.561  1389  1401 W MiuiBooster: "big_core_value[level-1]:4095"
+06-27 19:45:04.561  1389  1401 W MiuiBooster: "little_core_value[level-1]:4095"
+06-27 19:45:04.562  1389  1401 W MiuiBooster: "perf_handle:14494"
+06-27 19:45:04.562 25950 26229 D MiBridge: requestCpuHighFreq handle: 1
+06-27 19:45:04.562 25950 26229 D Launcher_CPUBooster: boostCpuToMax:0
+06-27 19:45:04.564 25950 25950 D Launcher.FullbackHome: FallbackHomeCompat::needKillSelf::needKillSelf = false
+06-27 19:45:04.564 25950 25950 D Launcher_UnlockAnimationStateMachine: onResume = IDLE
+06-27 19:45:04.565 25950 25950 I Launcher: changeMIUIWidgetEditMode false
+06-27 19:45:04.565 26283 26283 I cpwx    : onResume
+06-27 19:45:04.565  1627  2409 I MiuiNetworkPolicy: updateUidState uid = 10188, uidState = 3
+06-27 19:45:04.572  1627  5962 D WindowManager: Input focus has changed to Window{9b02302 u0 com.miui.home/com.miui.home.launcher.Launcher} display=0 updateInputWindows = true
+06-27 19:45:04.572  1627  5962 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:45:04.578 25950 25950 D DragContainerLayout: dispatch draw with clip rect: null
+06-27 19:45:04.584 25950 25950 D RecentsImpl: mActivityStateObserver com.miui.home.launcher.Launcher
+06-27 19:45:04.584  1627  3150 D WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{9b02302 u0 com.miui.home/com.miui.home.launcher.Launcher} in Surface(name=com.miui.home/com.miui.home.launcher.Launcher)/@0xa2a2cee
+06-27 19:45:04.584 25950 25950 W RecentsImpl: onResumed className=com.miui.home.launcher.Launcher   mIsInAnotherPro=false   isKeyguardLocked=false
+06-27 19:45:04.585  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.585  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.585  2535  3404 D KeyguardWallpaperRenderer: OFFSET  x: 0.0  y: 0.0
+06-27 19:45:04.585 25950 26124 D StatusBarController: handleMessage: flag 1000000  disable false
+06-27 19:45:04.586  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:04.592  8221  8589 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 94674207
+06-27 19:45:04.592  8221  8589 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 94674207
+06-27 19:45:04.592  1627  2248 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:45:04.596 25950 25950 D Launcher.Lifecycle: onWindowFocusChanged:true,UserHandle{0},ce92670,false
+06-27 19:45:04.596 25950 25950 D Launcher_UnlockAnimationStateMachine: onWindowFocus:IDLE
+06-27 19:45:04.596 25950 25950 D Launcher_UnlockAnimationStateMachine: showAnimation = IDLE
+06-27 19:45:04.596 25950 25950 D DecorView[]: onWindowFocusChanged hasWindowFocus true
+06-27 19:45:04.599  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.599  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.599  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.601  1627  3150 I WindowManagerService: Physical orientation not applied, rotation=0
+06-27 19:45:04.603 25875 25875 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984 
+06-27 19:45:04.603 25875 25875 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+06-27 19:45:04.603  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.603 25875 25875 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.miui.home, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2131362042, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+06-27 19:45:04.604 25875 25875 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+06-27 19:45:04.665 25950 26124 D StatusBarController: handleMessage: flag 800000  disable false
+06-27 19:45:04.665 25950 25950 D Launcher_WallpaperUtils: changeStatusBarMode:false
+06-27 19:45:04.666  1053  3919 E ANDR-PERF-LM: StatsProvider: stats_nl_error_callback() 115: NL SOC receive error: No such process
+06-27 19:45:04.666  1053  3919 E ANDR-PERF-LM: StatsProvider: sendRecvData() 272: nl_recvmsgs failed return=-12
+06-27 19:45:04.666  1053  3919 E ANDR-PERF-LM: StatsProvider: getPIDStats() 124: sendRecvData returned error = -4
+06-27 19:45:04.750 25950 25950 E RotationHelper: setCurrentTransitionRequest: request=0
+06-27 19:45:04.781  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.781  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.786  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:04.797  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.798  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.813  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.813  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.830  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.830  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.845  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.846  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.862  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.863  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.879  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.880  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.897  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.897  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.914  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.914  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.930  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.930  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.947  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.947  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.963  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.963  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.966  1053  3919 E ANDR-PERF-LM: StatsProvider: stats_nl_error_callback() 115: NL SOC receive error: No such process
+06-27 19:45:04.966  1053  3919 E ANDR-PERF-LM: StatsProvider: sendRecvData() 272: nl_recvmsgs failed return=-12
+06-27 19:45:04.966  1053  3919 E ANDR-PERF-LM: StatsProvider: getPIDStats() 124: sendRecvData returned error = -4
+06-27 19:45:04.980  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.981  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:04.987  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:04.997  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:04.997  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.013  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.013  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.030  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.031  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.047  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.047  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.064  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.064  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.081  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.081  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.098  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.099  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.113  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.113  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.131  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.131  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.148  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.148  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.150  1053  1053 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:103772): avc: denied { search } for comm=41646170744C61756E636820566D name="1817" dev="proc" ino=4505513 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+06-27 19:45:05.150  1053  1053 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:103773): avc: denied { search } for comm=41646170744C61756E636820566D name="1818" dev="proc" ino=4499875 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+06-27 19:45:05.150  1053  1053 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:103774): avc: denied { search } for comm=41646170744C61756E636820566D name="1819" dev="proc" ino=4499876 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+06-27 19:45:05.150  1053  1053 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:103775): avc: denied { search } for comm=41646170744C61756E636820566D name="2384" dev="proc" ino=4499877 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+06-27 19:45:05.150  1053  1053 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:103776): avc: denied { search } for comm=41646170744C61756E636820566D name="3269" dev="proc" ino=4505520 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+06-27 19:45:05.163  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.163  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.181  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.181  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.187  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:05.198  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.198  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.214  2535  2590 D HomeWallpaperRenderer: OFFSET  x: 1.0  y: 0.0
+06-27 19:45:05.215  2535  3079 W OpenGLRenderer: Surface doesn't have any previously queued frames, nothing to readback from
+06-27 19:45:05.266  1053  3919 E ANDR-PERF-LM: StatsProvider: stats_nl_error_callback() 115: NL SOC receive error: No such process
+06-27 19:45:05.266  1053  3919 E ANDR-PERF-LM: StatsProvider: sendRecvData() 272: nl_recvmsgs failed return=-12
+06-27 19:45:05.267  1053  3919 E ANDR-PERF-LM: StatsProvider: getPIDStats() 124: sendRecvData returned error = -4
+06-27 19:45:05.387  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:05.559  1053  3931 E ANDR-PERF-LM: VmRssMeter:: start() 447: Could not find pid, can not collect vmrss data
+06-27 19:45:05.559  1053  3932 E ANDR-PERF-LM: VmRssMeter:: start() 447: Could not find pid, can not collect vmrss data
+06-27 19:45:05.560  1053  3932 E ANDR-PERF-LM: AdaptiveLaunch: writeToDataBase() 64: Meter aborted or could not get meter data for this run
+06-27 19:45:05.567  1053  3919 E ANDR-PERF-LM: StatsProvider: stats_nl_error_callback() 115: NL SOC receive error: No such process
+06-27 19:45:05.567  1053  3919 E ANDR-PERF-LM: StatsProvider: sendRecvData() 272: nl_recvmsgs failed return=-12
+06-27 19:45:05.567  1053  3919 E ANDR-PERF-LM: StatsProvider: getPIDStats() 124: sendRecvData returned error = -4
+06-27 19:45:05.587  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:05.788  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:05.867  1053  3919 E ANDR-PERF-LM: StatsProvider: stats_nl_error_callback() 115: NL SOC receive error: No such process
+06-27 19:45:05.867  1053  3919 E ANDR-PERF-LM: StatsProvider: sendRecvData() 272: nl_recvmsgs failed return=-12
+06-27 19:45:05.867  1053  3919 E ANDR-PERF-LM: StatsProvider: getPIDStats() 124: sendRecvData returned error = -4
+06-27 19:45:05.988  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:06.168  1053  3919 E ANDR-PERF-LM: StatsProvider: stats_nl_error_callback() 115: NL SOC receive error: No such process
+06-27 19:45:06.168  1053  3919 E ANDR-PERF-LM: StatsProvider: sendRecvData() 272: nl_recvmsgs failed return=-12
+06-27 19:45:06.168  1053  3919 E ANDR-PERF-LM: StatsProvider: getPIDStats() 124: sendRecvData returned error = -4
+06-27 19:45:06.188  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:06.388  2872  7896 I SarService: Receiver polling >>>> Change receiver mode: off
+06-27 19:45:06.468  1053  3919 E ANDR-PERF-LM: StatsProvider: stats_nl_error_callback() 115: NL SOC receive error: No such process
+06-27 19:45:06.468  1053  3919 E ANDR-PERF-LM: StatsProvider: sendRecvData() 272: nl_recvmsgs failed return=-12
+06-27 19:45:06.468  1053  3919 E ANDR-PERF-LM: StatsProvider: getPIDStats() 124: sendRecvData returned error = -4
