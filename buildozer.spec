@@ -1,7 +1,5 @@
 [app]
 
-###
-
 # (str) Title of your application
 title = Livro de Ocorrências Digital
 
@@ -16,8 +14,6 @@ source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
 source.include_exts = py,png,jpg,kv,atlas,csv
-
-p4a.local_recipes = https://github.com/kivy-user/kivy-user-recipes/archive/main.zip
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -41,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3, kivy==2.3.1, requests, pyjnius, kivymd, filetype
+requirements = python3,kivy,requests, pyjnius==1.6.1
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -112,12 +108,10 @@ android.api = 31
 android.minapi = 21
 
 # (int) Android SDK version to use
-android.sdk = 31
+#android.sdk = 20
 
 # (str) Android NDK version to use
-#android.ndk = 25b
-
-android.build_tools = 31.0.0
+#android.ndk = 23b
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
 #android.ndk_api = 21
@@ -152,10 +146,9 @@ android.accept_sdk_license = True
 # use that parameter together with android.entrypoint to set custom Java class instead of PythonActivity
 #android.activity_class_name = org.kivy.android.PythonActivity
 
-# Força o uso da versão de desenvolvimento mais recente do python-for-android
-p4a.branch = master
-
 # (str) Extra xml to write directly inside the <manifest> element of AndroidManifest.xml
 # use that parameter to provide a filename from where to load your custom XML c
 
 [buildozer]
+# Força o uso da versão de desenvolvimento mais recente do python-for-android
+p4a.branch = master
